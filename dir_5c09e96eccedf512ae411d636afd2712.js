@@ -4,5 +4,7 @@ var dir_5c09e96eccedf512ae411d636afd2712 =
     [ "REMORA_DateClock.H", "REMORA__DateClock_8H.html", "REMORA__DateClock_8H" ],
     [ "REMORA_DepthStretchTransform.H", "REMORA__DepthStretchTransform_8H.html", "REMORA__DepthStretchTransform_8H" ],
     [ "REMORA_MaskedAverageDown.H", "REMORA__MaskedAverageDown_8H.html", "REMORA__MaskedAverageDown_8H" ],
+    [ "REMORA_NonperiodicGeometry.H", "REMORA__NonperiodicGeometry_8H.html", "REMORA__NonperiodicGeometry_8H" ],
+    [ "REMORA_StaggeredBilinear.H", "REMORA__StaggeredBilinear_8H.html", "REMORA__StaggeredBilinear_8H" ],
     [ "REMORA_TimeUnits.H", "REMORA__TimeUnits_8H.html", "REMORA__TimeUnits_8H" ]
 ];

@@ -1,5 +1,12 @@
 var NAVTREEINDEX4 =
 {
+"classNCTimeSeries.html#ade407058a6b4aca90273b1ed867a8f73":[2,0,14,3],
+"classNCTimeSeries.html#adf5aedc7963f0a326084362439be00a8":[2,0,14,9],
+"classNCTimeSeries.html#ae5b3191da69e619a88af53d41e2df277":[2,0,14,0],
+"classNCTimeSeries.html#ae5b3191da69e619a88af53d41e2df277a20f35e630daf44dbfa4c3f68f5399d8c":[2,0,14,0,0],
+"classNCTimeSeries.html#ae5b3191da69e619a88af53d41e2df277aa489ffed938ef1b9e86889bc413501ee":[2,0,14,0,1],
+"classNCTimeSeries.html#ae5b3191da69e619a88af53d41e2df277ae4d220a05c86f3d8c182e9a57a5fedab":[2,0,14,0,2],
+"classNCTimeSeries.html#aef8e8ece050e1d3c5aee53c6e36d3f7f":[2,0,14,33],
 "classNCTimeSeries.html#af265606e236105f17b0354069bb9f3bc":[2,0,14,26],
 "classNCTimeSeries.html#afc9c6b7d596f3e7cb85d798b584bd0d2":[2,0,14,38],
 "classNCTimeSeriesBoundary.html":[2,0,15],
@@ -242,12 +249,5 @@ var NAVTREEINDEX4 =
 "classREMORA.html#a2c050fd7227b627691a3c074eb104c8d":[2,0,22,362],
 "classREMORA.html#a2c9ed2b6a6fec3bed5f142d29a84e772":[2,0,22,408],
 "classREMORA.html#a2cd9cb0a9612fa0e470ed33493e6a144":[2,0,22,585],
-"classREMORA.html#a2db07c02489b68d7a25c23a126ca8bb0":[2,0,22,85],
-"classREMORA.html#a2e6c44c76a0dca92869a64f7f8d06fac":[2,0,22,7],
-"classREMORA.html#a2ea86fcd6c7d853a6c0110cf40f9cb1e":[2,0,22,81],
-"classREMORA.html#a2f9082721165ecef4b3b0fe5dfbafb8a":[2,0,22,275],
-"classREMORA.html#a30974467d447dcea00a9c01ed39471ad":[2,0,22,306],
-"classREMORA.html#a30e19fe714c4bfca32e5fdfc7f814636":[2,0,22,452],
-"classREMORA.html#a315996f069e298dbe8f12b6fd3db4091":[2,0,22,178],
-"classREMORA.html#a3169888aac3fc73417ac6ef3f22708d4":[2,0,22,159]
+"classREMORA.html#a2db07c02489b68d7a25c23a126ca8bb0":[2,0,22,85]
 };

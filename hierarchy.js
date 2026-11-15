@@ -22,6 +22,9 @@ var hierarchy =
     [ "REMORABiology::FennelParameters", "structREMORABiology_1_1FennelParameters.html", null ],
     [ "REMORAMaskedAvgDown::FieldWeight", "structREMORAMaskedAvgDown_1_1FieldWeight.html", null ],
     [ "HorizontalStencil", "structHorizontalStencil.html", null ],
+    [ "amrex::Interpolater", null, [
+      [ "StaggeredBilinear", "classStaggeredBilinear.html", null ]
+    ] ],
     [ "LatLonRegrid", "classLatLonRegrid.html", null ],
     [ "LatLonRegridOptions", "structLatLonRegridOptions.html", null ],
     [ "LevelIndex", "structLevelIndex.html", null ],

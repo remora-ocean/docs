@@ -1,5 +1,7 @@
 <map id="REMORA::interp_staggered_coords_from_coarse" name="REMORA::interp_staggered_coords_from_coarse">
-<area shape="rect" id="Node000001" title="Fill a refined level&#39;s coordinate array by bilinear interpolation of its parent&#39;s." alt="" coords="5,5,202,50"/>
-<area shape="rect" id="Node000002" href="$REMORA__InitAnalyticBathymetry__BoundaryLayer_8H.html#af7f3ba67c009067c556a82938120fbdd" title=" " alt="" coords="250,14,432,42"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="202,25,236,27,231,28,202,30"/>
+<area shape="rect" id="Node000001" title="Fill a refined level&#39;s coordinate array by bilinear interpolation of its parent&#39;s." alt="" coords="5,28,202,72"/>
+<area shape="rect" id="Node000002" href="$REMORA__NonperiodicGeometry_8H.html#a807c1181ccf7c025cc4410e41405c09b" title=" " alt="" coords="250,5,417,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="201,34,237,32,232,33,202,39"/>
+<area shape="rect" id="Node000003" href="$REMORA__StaggeredBilinear_8H.html#a7d7f64f0140446044455256ad65316ff" title=" " alt="" coords="262,57,404,102"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="202,60,249,68,244,68,202,65"/>
 </map>

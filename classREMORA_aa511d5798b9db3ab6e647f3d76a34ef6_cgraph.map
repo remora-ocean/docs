@@ -1,0 +1,5 @@
+<map id="REMORA::plot_node_coords" name="REMORA::plot_node_coords">
+<area shape="rect" id="Node000001" title="Physical (x, y) of the psi points on every level, for plotfile output." alt="" coords="5,5,206,33"/>
+<area shape="rect" id="Node000002" href="$REMORA__NonperiodicGeometry_8H.html#a807c1181ccf7c025cc4410e41405c09b" title=" " alt="" coords="254,5,421,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="206,17,241,19,235,19,206,22"/>
+</map>

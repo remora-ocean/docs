@@ -231,6 +231,9 @@ var NAVTREEINDEX2 =
 "REMORA__NCVectorTimeSeries_8H_source.html":[3,0,0,3,19],
 "REMORA__NCVectorTimeSeries_8cpp.html":[3,0,0,3,18],
 "REMORA__NCVectorTimeSeries_8cpp_source.html":[3,0,0,3,18],
+"REMORA__NonperiodicGeometry_8H.html":[3,0,0,7,4],
+"REMORA__NonperiodicGeometry_8H.html#a807c1181ccf7c025cc4410e41405c09b":[3,0,0,7,4,0],
+"REMORA__NonperiodicGeometry_8H_source.html":[3,0,0,7,4],
 "REMORA__PC_8H.html":[3,0,0,4,1],
 "REMORA__PC_8H.html#a0383d8a3a7d0bce173b4ee7d5c5f463b":[3,0,0,4,1,9],
 "REMORA__PC_8H.html#a47651b206c7945bb9f035f08da2a0a20":[3,0,0,4,1,8],
@@ -246,8 +249,5 @@ var NAVTREEINDEX2 =
 "REMORA__PC__Init_8cpp.html":[3,0,0,4,3],
 "REMORA__PC__Init_8cpp_source.html":[3,0,0,4,3],
 "REMORA__PC__Utils_8cpp.html":[3,0,0,4,4],
-"REMORA__PC__Utils_8cpp_source.html":[3,0,0,4,4],
-"REMORA__ParticleData_8H.html":[3,0,0,4,0],
-"REMORA__ParticleData_8H.html#a307629588b9b06d9290fdd88d438048d":[3,0,0,4,0,3],
-"REMORA__ParticleData_8H.html#abf443828ef22024afc39f798fbe5fd4e":[3,0,0,4,0,1]
+"REMORA__PC__Utils_8cpp_source.html":[3,0,0,4,4]
 };

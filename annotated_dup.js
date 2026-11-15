@@ -66,5 +66,6 @@ var annotated_dup =
     [ "REMORAPhysBCFunct", "classREMORAPhysBCFunct.html", "classREMORAPhysBCFunct" ],
     [ "REMORATimeUnits", "structREMORATimeUnits.html", "structREMORATimeUnits" ],
     [ "SolverChoice", "structSolverChoice.html", "structSolverChoice" ],
+    [ "StaggeredBilinear", "classStaggeredBilinear.html", "classStaggeredBilinear" ],
     [ "TimeInterpolatedData", "structTimeInterpolatedData.html", "structTimeInterpolatedData" ]
 ];

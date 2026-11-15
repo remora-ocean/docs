@@ -10,10 +10,10 @@
 <area shape="poly" id="edge28_Node000001_Node000049" title=" " alt="" coords="189,765,278,765,274,769,192,769"/>
 <area shape="rect" id="Node000141" href="$classREMORA.html#acf259537f6d9c23a0edcf6641381a9d0" title="advance all levels by dt, loops over finer levels" alt="" coords="283,1197,447,1225"/>
 <area shape="poly" id="edge63_Node000001_Node000141" title=" " alt="" coords="109,779,350,1183,345,1185,107,784"/>
-<area shape="rect" id="Node000198" href="$classREMORA.html#ac913b0905819be075a6e2dd8334b6e8a" title="Form w before a coarse step that ends in a checkpoint, which also writes the w of the state the step ..." alt="" coords="273,1442,456,1487"/>
-<area shape="poly" id="edge79_Node000001_Node000198" title=" " alt="" coords="103,779,151,965,191,1100,241,1235,293,1342,344,1429,338,1429,288,1344,236,1238,186,1101,146,966,102,784"/>
-<area shape="rect" id="Node000200" href="$classREMORA.html#a3fb48fd829dfe74252bb0af4597a2775" title="Write checkpoint and plotfiles at intermediate point of simulation, if needed." alt="" coords="239,1556,491,1584"/>
-<area shape="poly" id="edge82_Node000001_Node000200" title=" " alt="" coords="101,779,115,915,142,1128,161,1242,184,1348,210,1436,225,1471,241,1498,270,1526,308,1549,302,1550,267,1531,237,1501,220,1473,205,1438,179,1349,156,1243,137,1129,110,915,100,784"/>
+<area shape="rect" id="Node000199" href="$classREMORA.html#ac913b0905819be075a6e2dd8334b6e8a" title="Form w before a coarse step that ends in a checkpoint, which also writes the w of the state the step ..." alt="" coords="273,1442,456,1487"/>
+<area shape="poly" id="edge79_Node000001_Node000199" title=" " alt="" coords="103,779,151,965,191,1100,241,1235,293,1342,344,1429,338,1429,288,1344,236,1238,186,1101,146,966,102,784"/>
+<area shape="rect" id="Node000201" href="$classREMORA.html#a3fb48fd829dfe74252bb0af4597a2775" title="Write checkpoint and plotfiles at intermediate point of simulation, if needed." alt="" coords="239,1556,491,1584"/>
+<area shape="poly" id="edge82_Node000001_Node000201" title=" " alt="" coords="101,779,115,915,142,1128,161,1242,184,1348,210,1436,225,1471,241,1498,270,1526,308,1549,302,1550,267,1531,237,1501,220,1473,205,1438,179,1349,156,1243,137,1129,110,915,100,784"/>
 <area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="380,149,447,97,491,68,538,43,561,36,557,40,540,48,494,73,450,101,385,152"/>
 <area shape="rect" id="Node000004" href="$classREMORA.html#ac71630052015782fce4f20e204e42016" title="compute dt from CFL considerations" alt="" coords="564,57,732,85"/>
 <area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="397,148,462,121,538,94,566,87,562,91,540,99,464,126,401,152"/>
@@ -127,12 +127,12 @@
 <area shape="poly" id="edge76_Node000142_Node000005" title=" " alt="" coords="670,1600,755,1538,803,1494,879,1438,884,1436,806,1499,758,1543,672,1605"/>
 <area shape="poly" id="edge74_Node000142_Node000011" title=" " alt="" coords="732,1611,843,1599,978,1574,1049,1554,1119,1528,1187,1497,1249,1458,1303,1415,1354,1367,1401,1315,1444,1262,1514,1163,1561,1090,1566,1086,1519,1166,1448,1266,1405,1319,1358,1371,1307,1419,1253,1463,1189,1502,1121,1533,1051,1559,979,1579,844,1604,733,1616"/>
 <area shape="poly" id="edge75_Node000142_Node000062" title=" " alt="" coords="715,1599,787,1578,870,1545,912,1523,953,1499,991,1470,1025,1437,1057,1396,1084,1349,1105,1301,1122,1251,1145,1160,1157,1093,1160,1089,1150,1161,1128,1253,1110,1303,1088,1352,1061,1399,1029,1441,994,1474,956,1503,914,1528,872,1550,788,1583,716,1605"/>
-<area shape="poly" id="edge81_Node000198_Node000005" title=" " alt="" coords="456,1454,817,1421,813,1425,457,1459"/>
-<area shape="rect" id="Node000199" href="$classREMORA.html#ab04f5975068f7f5e9847d684410e9390" title="Whether WriteAtIntermediateTime writes a checkpoint after coarse step step." alt="" coords="554,1655,742,1682"/>
-<area shape="poly" id="edge80_Node000198_Node000199" title=" " alt="" coords="415,1485,456,1510,493,1543,509,1570,516,1595,523,1618,541,1640,549,1648,544,1646,537,1644,518,1620,510,1596,504,1572,489,1546,453,1514,414,1490"/>
-<area shape="poly" id="edge86_Node000200_Node000142" title=" " alt="" coords="453,1582,550,1600,545,1600,453,1587"/>
-<area shape="poly" id="edge83_Node000200_Node000199" title=" " alt="" coords="397,1582,463,1610,540,1639,570,1650,564,1650,538,1644,461,1615,396,1587"/>
-<area shape="rect" id="Node000201" href="$classREMORA.html#a7caca09160ec6dadae1485327a5ae4cc" title="write checkpoint file to disk" alt="" coords="539,1501,756,1529"/>
-<area shape="poly" id="edge84_Node000200_Node000201" title=" " alt="" coords="440,1553,560,1532,555,1533,441,1558"/>
-<area shape="poly" id="edge85_Node000201_Node000005" title=" " alt="" coords="702,1498,755,1481,868,1435,873,1434,757,1486,703,1503"/>
+<area shape="poly" id="edge81_Node000199_Node000005" title=" " alt="" coords="456,1454,817,1421,813,1425,457,1459"/>
+<area shape="rect" id="Node000200" href="$classREMORA.html#ab04f5975068f7f5e9847d684410e9390" title="Whether WriteAtIntermediateTime writes a checkpoint after coarse step step." alt="" coords="554,1655,742,1682"/>
+<area shape="poly" id="edge80_Node000199_Node000200" title=" " alt="" coords="415,1485,456,1510,493,1543,509,1570,516,1595,523,1618,541,1640,549,1648,544,1646,537,1644,518,1620,510,1596,504,1572,489,1546,453,1514,414,1490"/>
+<area shape="poly" id="edge86_Node000201_Node000142" title=" " alt="" coords="453,1582,550,1600,545,1600,453,1587"/>
+<area shape="poly" id="edge83_Node000201_Node000200" title=" " alt="" coords="397,1582,463,1610,540,1639,570,1650,564,1650,538,1644,461,1615,396,1587"/>
+<area shape="rect" id="Node000202" href="$classREMORA.html#a7caca09160ec6dadae1485327a5ae4cc" title="write checkpoint file to disk" alt="" coords="539,1501,756,1529"/>
+<area shape="poly" id="edge84_Node000201_Node000202" title=" " alt="" coords="440,1553,560,1532,555,1533,441,1558"/>
+<area shape="poly" id="edge85_Node000202_Node000005" title=" " alt="" coords="702,1498,755,1481,868,1435,873,1434,757,1486,703,1503"/>
 </map>
