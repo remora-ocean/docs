@@ -6,7 +6,7 @@ var searchData=
   ['ncfile_3',['NCFile',['../classncutils_1_1NCFile.html#aec0e1a7f0f93f2f806c0a0abaae66423',1,'ncutils::NCFile::NCFile(const int id)'],['../classncutils_1_1NCFile.html#a80a30aa1cb6bbcc4c2b31236d2a88dfe',1,'ncutils::NCFile::NCFile(const NCFile &amp;)=delete'],['../classncutils_1_1NCFile.html#aad55fd2b11c61fa4e71a8b2a5fdb9fa6',1,'ncutils::NCFile::NCFile(NCFile &amp;&amp;other) noexcept']]],
   ['ncreadsession_4',['NCReadSession',['../classNCReadSession.html#a63f588da03204bd7ccd3ab680b7252af',1,'NCReadSession::NCReadSession()'],['../classNCReadSession.html#a36e6e2f5f33c33dcccc71368b0f0a952',1,'NCReadSession::NCReadSession(const NCReadSession &amp;)=delete']]],
   ['nctimeseries_5',['NCTimeSeries',['../classNCTimeSeries.html#aab4915c7eaa95f39c19064c40e27e964',1,'NCTimeSeries']]],
-  ['nctimeseriesboundary_6',['NCTimeSeriesBoundary',['../classNCTimeSeriesBoundary.html#a7c1c8085948b2b52ac093b1b08d8dc6b',1,'NCTimeSeriesBoundary']]],
+  ['nctimeseriesboundary_6',['NCTimeSeriesBoundary',['../classNCTimeSeriesBoundary.html#af891b78de67b01453c3577c45942299f',1,'NCTimeSeriesBoundary']]],
   ['nctimeseriesriver_7',['NCTimeSeriesRiver',['../classNCTimeSeriesRiver.html#a12d57917b8fad359fe7813faabf9a7d8',1,'NCTimeSeriesRiver']]],
   ['ncvectortimeseries_8',['NCVectorTimeSeries',['../classNCVectorTimeSeries.html#afef793a15c2f732a1d0584ff6d03224f',1,'NCVectorTimeSeries']]],
   ['ndarray_9',['NDArray',['../structNDArray.html#a896e27f1238a68d5221aa00bbf9fd2f0',1,'NDArray::NDArray(const std::string vname, const std::vector&lt; MPI_Offset &gt; &amp;vshape)'],['../structNDArray.html#a1f33dbd861944bc1494f4790f4f8543d',1,'NDArray::NDArray()']]],

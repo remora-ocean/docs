@@ -36,12 +36,12 @@
 <area shape="poly" id="edge39_Node000001_Node000036" title=" " alt="" coords="90,689,99,567,123,374,140,273,162,179,189,102,204,72,221,49,238,37,235,42,225,53,209,75,194,104,167,181,145,274,128,375,105,567,95,689"/>
 <area shape="rect" id="Node000037" href="$classREMORA.html#af4efa19ba13da068e99e1dc3759b700c" title="Bring zvel_new up to date on every level whose w the last step left stale." alt="" coords="255,399,424,426"/>
 <area shape="poly" id="edge41_Node000001_Node000037" title=" " alt="" coords="93,688,109,646,135,588,173,524,195,494,221,467,248,446,281,431,278,435,251,450,224,470,199,497,177,527,140,590,114,648,98,690"/>
-<area shape="rect" id="Node000053" href="$classREMORA.html#a331fbdef188eaf70cc72be04b1208020" title="Write job info to stdout." alt="" coords="258,1172,422,1200"/>
-<area shape="poly" id="edge45_Node000001_Node000053" title=" " alt="" coords="91,715,94,795,99,851,109,914,124,980,148,1045,181,1105,224,1157,246,1173,241,1174,221,1161,176,1108,143,1047,119,981,103,915,94,852,89,796,90,720"/>
-<area shape="rect" id="Node000059" href="$classREMORA.html#add7671138303d3571c64bab22c522abf" title="write out particular data to an AMReX plotfile" alt="" coords="223,1276,457,1320"/>
-<area shape="poly" id="edge51_Node000001_Node000059" title=" " alt="" coords="92,715,100,797,118,924,135,997,157,1071,187,1143,225,1210,252,1240,285,1267,280,1267,248,1244,220,1213,182,1145,152,1073,129,998,113,925,94,798,91,720"/>
-<area shape="rect" id="Node000061" href="$classREMORA.html#a1e6a3a94867bfddb54e20b81d1750252" title="Write plotfile using NetCDF (wrapper)." alt="" coords="246,639,434,666"/>
-<area shape="poly" id="edge53_Node000001_Node000061" title=" " alt="" coords="160,687,255,668,252,672,163,691"/>
+<area shape="rect" id="Node000054" href="$classREMORA.html#a331fbdef188eaf70cc72be04b1208020" title="Write job info to stdout." alt="" coords="258,1172,422,1200"/>
+<area shape="poly" id="edge45_Node000001_Node000054" title=" " alt="" coords="91,715,94,795,99,851,109,914,124,980,148,1045,181,1105,224,1157,246,1173,241,1174,221,1161,176,1108,143,1047,119,981,103,915,94,852,89,796,90,720"/>
+<area shape="rect" id="Node000060" href="$classREMORA.html#add7671138303d3571c64bab22c522abf" title="write out particular data to an AMReX plotfile" alt="" coords="223,1276,457,1320"/>
+<area shape="poly" id="edge51_Node000001_Node000060" title=" " alt="" coords="92,715,100,797,118,924,135,997,157,1071,187,1143,225,1210,252,1240,285,1267,280,1267,248,1244,220,1213,182,1145,152,1073,129,998,113,925,94,798,91,720"/>
+<area shape="rect" id="Node000062" href="$classREMORA.html#a1e6a3a94867bfddb54e20b81d1750252" title="Write plotfile using NetCDF (wrapper)." alt="" coords="246,639,434,666"/>
+<area shape="poly" id="edge53_Node000001_Node000062" title=" " alt="" coords="160,687,255,668,252,672,163,691"/>
 <area shape="rect" id="Node000005" href="$REMORA__BitwiseDiff_8H.html#a8530441f8e227d3a90897e3c053599d2" title=" " alt="" coords="1057,51,1196,78"/>
 <area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="700,74,1043,65,1039,69,703,79"/>
 <area shape="rect" id="Node000006" href="$classREMORA.html#ada1c39552865ff6ee17e3356b6865171" title="the entry for crse while its level is frozen, made if absent; nullptr otherwise" alt="" coords="1047,122,1206,167"/>
@@ -85,31 +85,31 @@
 <area shape="poly" id="edge42_Node000037_Node000038" title=" " alt="" coords="407,396,523,372,519,376,410,400"/>
 <area shape="poly" id="edge43_Node000038_Node000013" title=" " alt="" coords="711,367,806,386,801,388,712,372"/>
 <area shape="poly" id="edge44_Node000038_Node000026" title=" " alt="" coords="710,348,813,347,808,350,712,353"/>
-<area shape="rect" id="Node000054" href="$namespaceamrex.html#a4722f2802412a1b4759ed3dde96e7004" title=" " alt="" coords="516,1068,731,1096"/>
-<area shape="poly" id="edge46_Node000053_Node000054" title=" " alt="" coords="422,1171,456,1157,470,1145,479,1132,488,1119,504,1106,521,1100,517,1103,506,1111,492,1123,483,1135,474,1149,458,1161,424,1176"/>
-<area shape="rect" id="Node000055" href="$namespaceamrex.html#a5f81ff33377203a46fb45efb7c30a2e6" title=" " alt="" coords="529,1120,718,1148"/>
-<area shape="poly" id="edge47_Node000053_Node000055" title=" " alt="" coords="419,1169,532,1150,527,1152,420,1174"/>
-<area shape="rect" id="Node000056" href="$namespaceamrex.html#a51d56426424c3c4103a45c273a3abf97" title=" " alt="" coords="505,1172,742,1200"/>
-<area shape="poly" id="edge48_Node000053_Node000056" title=" " alt="" coords="422,1183,492,1185,487,1186,423,1188"/>
-<area shape="rect" id="Node000057" href="$namespaceamrex.html#a215b1ed21dbb8f453201c6dc72ab3d1c" title=" " alt="" coords="522,1224,725,1252"/>
-<area shape="poly" id="edge49_Node000053_Node000057" title=" " alt="" coords="419,1198,532,1220,526,1221,420,1203"/>
-<area shape="rect" id="Node000058" href="$classREMORA.html#a79eb0ac9909062422d3b3207a7643dd8" title="Get CPU time used." alt="" coords="540,1276,707,1304"/>
-<area shape="poly" id="edge50_Node000053_Node000058" title=" " alt="" coords="367,1198,430,1229,506,1261,536,1272,531,1272,504,1266,428,1234,367,1203"/>
-<area shape="rect" id="Node000060" href="$classREMORA.html#aad79fc1eb40214bba900804e0c3c080f" title="write out header data for an AMReX plotfile" alt="" coords="516,1328,732,1372"/>
-<area shape="poly" id="edge52_Node000059_Node000060" title=" " alt="" coords="458,1317,503,1327,498,1327,457,1322"/>
-<area shape="rect" id="Node000062" href="$classncutils_1_1NCFile.html#abddb0caca9a60c01a48beeafaff0b899" title="Create a file. Defaults to CDF&#45;5; classic CDF&#45;1 has a 2GB limit." alt="" coords="542,741,705,769"/>
-<area shape="poly" id="edge54_Node000061_Node000062" title=" " alt="" coords="413,664,458,682,473,693,483,705,492,716,506,726,530,737,525,739,504,731,488,720,479,708,470,697,456,687,414,669"/>
-<area shape="rect" id="Node000064" href="$classREMORA.html#ad96cf5c7c0d2eb30ca56e99fcee3624d" title="Record at which a restarted run continues a history file." alt="" coords="533,621,714,666"/>
-<area shape="poly" id="edge55_Node000061_Node000064" title=" " alt="" coords="433,647,520,645,515,648,436,652"/>
-<area shape="rect" id="Node000069" href="$classncutils_1_1NCFile.html#af2716d5bd568c6b56c0756a593e8378d" title="Open an existing file." alt="" coords="816,573,971,601"/>
-<area shape="poly" id="edge60_Node000061_Node000069" title=" " alt="" coords="384,636,441,619,505,606,582,596,661,589,803,586,798,588,661,595,583,601,505,611,442,625,387,640"/>
-<area shape="rect" id="Node000071" href="$classREMORA.html#a007d0cbaf560e30af5aa9ad8f2ec9a0a" title="NetCDF file a level&#39;s output goes to at this output step." alt="" coords="526,689,721,717"/>
-<area shape="poly" id="edge59_Node000061_Node000071" title=" " alt="" coords="421,664,529,685,525,687,422,669"/>
-<area shape="rect" id="Node000072" href="$classREMORA.html#a771727b23eb8a8bd4c596a8280a0a6cf" title="Write a particular NetCDF plotfile." alt="" coords="530,793,718,838"/>
-<area shape="poly" id="edge61_Node000061_Node000072" title=" " alt="" coords="426,664,459,682,470,694,477,707,484,732,490,756,496,767,507,778,518,788,513,789,503,783,492,770,485,758,479,733,472,709,466,698,455,687,427,670"/>
-<area shape="poly" id="edge57_Node000064_Node000014" title=" " alt="" coords="714,641,777,642,772,644,716,646"/>
-<area shape="poly" id="edge56_Node000064_Node000031" title=" " alt="" coords="714,662,744,676,782,701,818,731,873,789,868,789,814,735,779,706,741,680,715,668"/>
-<area shape="poly" id="edge58_Node000064_Node000069" title=" " alt="" coords="714,622,811,603,806,606,716,627"/>
-<area shape="poly" id="edge63_Node000072_Node000014" title=" " alt="" coords="716,790,741,778,779,753,814,723,869,671,873,667,818,727,782,757,744,783,719,794"/>
-<area shape="poly" id="edge62_Node000072_Node000031" title=" " alt="" coords="718,813,798,814,793,816,719,818"/>
+<area shape="rect" id="Node000055" href="$namespaceamrex.html#a4722f2802412a1b4759ed3dde96e7004" title=" " alt="" coords="516,1068,731,1096"/>
+<area shape="poly" id="edge46_Node000054_Node000055" title=" " alt="" coords="422,1171,456,1157,470,1145,479,1132,488,1119,504,1106,521,1100,517,1103,506,1111,492,1123,483,1135,474,1149,458,1161,424,1176"/>
+<area shape="rect" id="Node000056" href="$namespaceamrex.html#a5f81ff33377203a46fb45efb7c30a2e6" title=" " alt="" coords="529,1120,718,1148"/>
+<area shape="poly" id="edge47_Node000054_Node000056" title=" " alt="" coords="419,1169,532,1150,527,1152,420,1174"/>
+<area shape="rect" id="Node000057" href="$namespaceamrex.html#a51d56426424c3c4103a45c273a3abf97" title=" " alt="" coords="505,1172,742,1200"/>
+<area shape="poly" id="edge48_Node000054_Node000057" title=" " alt="" coords="422,1183,492,1185,487,1186,423,1188"/>
+<area shape="rect" id="Node000058" href="$namespaceamrex.html#a215b1ed21dbb8f453201c6dc72ab3d1c" title=" " alt="" coords="522,1224,725,1252"/>
+<area shape="poly" id="edge49_Node000054_Node000058" title=" " alt="" coords="419,1198,532,1220,526,1221,420,1203"/>
+<area shape="rect" id="Node000059" href="$classREMORA.html#a79eb0ac9909062422d3b3207a7643dd8" title="Get CPU time used." alt="" coords="540,1276,707,1304"/>
+<area shape="poly" id="edge50_Node000054_Node000059" title=" " alt="" coords="367,1198,430,1229,506,1261,536,1272,531,1272,504,1266,428,1234,367,1203"/>
+<area shape="rect" id="Node000061" href="$classREMORA.html#aad79fc1eb40214bba900804e0c3c080f" title="write out header data for an AMReX plotfile" alt="" coords="516,1328,732,1372"/>
+<area shape="poly" id="edge52_Node000060_Node000061" title=" " alt="" coords="458,1317,503,1327,498,1327,457,1322"/>
+<area shape="rect" id="Node000063" href="$classncutils_1_1NCFile.html#abddb0caca9a60c01a48beeafaff0b899" title="Create a file. Defaults to CDF&#45;5; classic CDF&#45;1 has a 2GB limit." alt="" coords="542,741,705,769"/>
+<area shape="poly" id="edge54_Node000062_Node000063" title=" " alt="" coords="413,664,458,682,473,693,483,705,492,716,506,726,530,737,525,739,504,731,488,720,479,708,470,697,456,687,414,669"/>
+<area shape="rect" id="Node000065" href="$classREMORA.html#ad96cf5c7c0d2eb30ca56e99fcee3624d" title="Record at which a restarted run continues a history file." alt="" coords="533,621,714,666"/>
+<area shape="poly" id="edge55_Node000062_Node000065" title=" " alt="" coords="433,647,520,645,515,648,436,652"/>
+<area shape="rect" id="Node000070" href="$classncutils_1_1NCFile.html#af2716d5bd568c6b56c0756a593e8378d" title="Open an existing file." alt="" coords="816,573,971,601"/>
+<area shape="poly" id="edge60_Node000062_Node000070" title=" " alt="" coords="384,636,441,619,505,606,582,596,661,589,803,586,798,588,661,595,583,601,505,611,442,625,387,640"/>
+<area shape="rect" id="Node000072" href="$classREMORA.html#a007d0cbaf560e30af5aa9ad8f2ec9a0a" title="NetCDF file a level&#39;s output goes to at this output step." alt="" coords="526,689,721,717"/>
+<area shape="poly" id="edge59_Node000062_Node000072" title=" " alt="" coords="421,664,529,685,525,687,422,669"/>
+<area shape="rect" id="Node000073" href="$classREMORA.html#a771727b23eb8a8bd4c596a8280a0a6cf" title="Write a particular NetCDF plotfile." alt="" coords="530,793,718,838"/>
+<area shape="poly" id="edge61_Node000062_Node000073" title=" " alt="" coords="426,664,459,682,470,694,477,707,484,732,490,756,496,767,507,778,518,788,513,789,503,783,492,770,485,758,479,733,472,709,466,698,455,687,427,670"/>
+<area shape="poly" id="edge57_Node000065_Node000014" title=" " alt="" coords="714,641,777,642,772,644,716,646"/>
+<area shape="poly" id="edge56_Node000065_Node000031" title=" " alt="" coords="714,662,744,676,782,701,818,731,873,789,868,789,814,735,779,706,741,680,715,668"/>
+<area shape="poly" id="edge58_Node000065_Node000070" title=" " alt="" coords="714,622,811,603,806,606,716,627"/>
+<area shape="poly" id="edge63_Node000073_Node000014" title=" " alt="" coords="716,790,741,778,779,753,814,723,869,671,873,667,818,727,782,757,744,783,719,794"/>
+<area shape="poly" id="edge62_Node000073_Node000031" title=" " alt="" coords="718,813,798,814,793,816,719,818"/>
 </map>
