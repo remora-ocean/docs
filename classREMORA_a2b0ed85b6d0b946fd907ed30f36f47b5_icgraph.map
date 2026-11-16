@@ -1,7 +1,7 @@
-<map id="REMORA::prestep_diffusion" name="REMORA::prestep_diffusion">
-<area shape="rect" id="Node000001" title="Update velocities or tracers with diffusion/viscosity as the last part of the prestep." alt="" coords="1132,56,1331,84"/>
-<area shape="rect" id="Node000002" href="$classREMORA.html#a707974bad372495d62963171d386b792" title="Wrapper function for prestep." alt="" coords="949,56,1084,84"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="1114,70,1085,72,1085,67,1120,70"/>
+<map id="REMORA::prestep_t_advection" name="REMORA::prestep_t_advection">
+<area shape="rect" id="Node000001" title="Prestep advection calculations for the tracers." alt="" coords="1132,56,1351,84"/>
+<area shape="rect" id="Node000002" href="$classREMORA.html#a3b6bc5b2332ff6f10b4360b208899159" title="Wrapper function for prestep." alt="" coords="949,56,1084,84"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="1114,70,1085,72,1085,67,1119,70"/>
 <area shape="rect" id="Node000003" href="$classREMORA.html#ad9ee5aba5b9cb8e020e6cbc8ff3cff74" title="Set everything up for a step on a level." alt="" coords="744,56,901,84"/>
 <area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="931,70,902,72,902,67,936,70"/>
 <area shape="rect" id="Node000004" href="$classREMORA.html#a9a67a95c1bc1f744268a245f4ca4c446" title="advance a single level for a single time step" alt="" coords="553,31,696,58"/>

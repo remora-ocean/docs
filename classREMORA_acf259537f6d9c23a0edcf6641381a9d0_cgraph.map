@@ -104,13 +104,13 @@
 <area shape="poly" id="edge56_Node000085_Node000091" title=" " alt="" coords="584,1474,645,1519,684,1543,725,1564,750,1574,745,1575,723,1569,681,1548,642,1523,584,1479"/>
 <area shape="rect" id="Node000092" href="$classREMORA.html#a6122490d3208c33fce7fc1896baece42" title="Prestep for GLS calculation." alt="" coords="777,998,939,1026"/>
 <area shape="poly" id="edge59_Node000085_Node000092" title=" " alt="" coords="570,1447,589,1395,622,1315,667,1225,722,1137,774,1079,828,1033,824,1037,777,1082,726,1140,672,1227,627,1318,594,1396,575,1450"/>
-<area shape="rect" id="Node000093" href="$classREMORA.html#a707974bad372495d62963171d386b792" title="Wrapper function for prestep." alt="" coords="790,1907,926,1935"/>
+<area shape="rect" id="Node000093" href="$classREMORA.html#a3b6bc5b2332ff6f10b4360b208899159" title="Wrapper function for prestep." alt="" coords="790,1907,926,1935"/>
 <area shape="poly" id="edge63_Node000085_Node000093" title=" " alt="" coords="569,1474,577,1551,586,1605,599,1664,619,1726,646,1788,681,1844,726,1892,749,1907,778,1918,773,1918,747,1912,723,1896,677,1847,641,1790,614,1728,594,1666,581,1606,572,1552,567,1479"/>
 <area shape="rect" id="Node000096" href="$classREMORA.html#a0258be23f7f9c4d5e47cf9b58e00d5d8" title="Calculate pressure gradient." alt="" coords="794,1631,922,1659"/>
 <area shape="poly" id="edge65_Node000085_Node000096" title=" " alt="" coords="578,1474,636,1544,678,1583,726,1616,752,1627,782,1637,776,1638,750,1632,723,1621,674,1587,632,1548,577,1479"/>
 <area shape="rect" id="Node000097" href="$classREMORA.html#a2b8ea8e7b1db929b8a9c3c8180ee0341" title="Wrapper around equation of state calculation." alt="" coords="789,1683,927,1711"/>
 <area shape="poly" id="edge66_Node000085_Node000097" title=" " alt="" coords="574,1474,596,1515,628,1568,672,1623,698,1647,726,1668,749,1680,776,1689,771,1690,747,1685,723,1673,694,1651,668,1626,624,1571,591,1518,573,1479"/>
-<area shape="rect" id="Node000100" href="$classREMORA.html#a00f46ff162baeef568c646c662861437" title="RHS terms for 3D momentum." alt="" coords="782,1735,934,1763"/>
+<area shape="rect" id="Node000100" href="$classREMORA.html#a4f8fdb1b34217b7c7d39d66e07938ca2" title="RHS terms for 3D momentum." alt="" coords="782,1735,934,1763"/>
 <area shape="poly" id="edge67_Node000085_Node000100" title=" " alt="" coords="572,1474,591,1523,621,1591,641,1626,666,1661,694,1693,726,1720,745,1731,769,1741,764,1741,743,1736,723,1725,690,1697,662,1665,637,1629,616,1593,586,1525,571,1479"/>
 <area shape="rect" id="Node000101" href="$classREMORA.html#a816b9966899d512c4b24b6955d8ec8fc" title="Set vertical mixing coefficients from analytic." alt="" coords="755,1251,961,1279"/>
 <area shape="poly" id="edge68_Node000085_Node000101" title=" " alt="" coords="574,1446,596,1413,629,1370,672,1325,723,1288,743,1281,739,1284,726,1293,676,1329,633,1373,600,1416,578,1450"/>

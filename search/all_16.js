@@ -144,7 +144,7 @@ var searchData=
   ['verbose_141',['verbose',['../classREMORA.html#ad9ed53f5f841397304bf3b16fc82ecd9',1,'REMORA']]],
   ['vert_5fmean_5f3d_142',['vert_mean_3d',['../classREMORA.html#a74f3c18980ea8de9e0135c371605cca2',1,'REMORA']]],
   ['vert_5fmixing_5ftype_143',['vert_mixing_type',['../structSolverChoice.html#ab7a9f7f152b29002c3cb2331447dc30e',1,'SolverChoice']]],
-  ['vert_5fvisc_5f3d_144',['vert_visc_3d',['../classREMORA.html#aaed0680a8912bbb8bcf78d3fd3737d56',1,'REMORA']]],
+  ['vert_5fvisc_5f3d_144',['vert_visc_3d',['../classREMORA.html#a41d9ef095286ea4e4435ac21c19f0ac0',1,'REMORA']]],
   ['vertmixingtype_145',['VertMixingType',['../REMORA__DataStruct_8H.html#ae051a5657a30b61eb6fe9bab09127856',1,'REMORA_DataStruct.H']]],
   ['visc2_146',['visc2',['../structSolverChoice.html#a7deb8e04b24645d163a6572b0cd7e4b0',1,'SolverChoice']]],
   ['volwgtsummf_147',['volWgtSumMF',['../classREMORA.html#abeeb495dbfc8b1a3f35556f156d4b3d2',1,'REMORA']]],
