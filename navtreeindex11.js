@@ -1,5 +1,6 @@
 var NAVTREEINDEX11 =
 {
+"structREMORA_1_1CFInterfaceFlux.html#a98f29f6548cf5086bcb4b5330558b570":[2,0,22,0,0],
 "structREMORA_1_1CFInterfaceFlux.html#a99d27c09800b2c9104e6e0beb25a254f":[2,0,22,0,4],
 "structREMORA_1_1CrseInterpEntry.html":[2,0,22,2],
 "structREMORA_1_1CrseInterpEntry.html#a485e087e6e67a3c2ce47e3be38933966":[2,0,22,2,6],
@@ -248,6 +249,5 @@ var NAVTREEINDEX11 =
 "structncutils_1_1NCVar.html#a1f4bc3d6ce3b67154f8c078ad4c9bc2c":[2,0,5,2,28],
 "structncutils_1_1NCVar.html#a20a21f72754e272750c8fa38c9ad44b6":[1,0,27,2,41],
 "structncutils_1_1NCVar.html#a20a21f72754e272750c8fa38c9ad44b6":[2,0,5,2,41],
-"structncutils_1_1NCVar.html#a233d94aa3ccbef1cc12565340bcc7218":[1,0,27,2,49],
-"structncutils_1_1NCVar.html#a233d94aa3ccbef1cc12565340bcc7218":[2,0,5,2,49]
+"structncutils_1_1NCVar.html#a233d94aa3ccbef1cc12565340bcc7218":[1,0,27,2,49]
 };
