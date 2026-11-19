@@ -55,6 +55,17 @@ var REMORA__DataStruct_8H =
       [ "analytic", "REMORA__DataStruct_8H.html#ae3ced2280da8e808314b6ece3f71034da0747ffd2ec4a506ee2b993a044b370c9", null ],
       [ "netcdf", "REMORA__DataStruct_8H.html#ae3ced2280da8e808314b6ece3f71034dac2e0f73e7b066a47b743d6ce8213e684", null ]
     ] ],
+    [ "JerlovType", "REMORA__DataStruct_8H.html#a9681a821258db223d808869534720ead", [
+      [ "I", "REMORA__DataStruct_8H.html#a9681a821258db223d808869534720eadadd7536794b63bf90eccfd37f9b147d7f", null ],
+      [ "IA", "REMORA__DataStruct_8H.html#a9681a821258db223d808869534720eadab97267fa7855e04401fb12fa8a4c516f", null ],
+      [ "IB", "REMORA__DataStruct_8H.html#a9681a821258db223d808869534720eadafa2452c388ed1c0da4d2fcf91ac4c8c6", null ],
+      [ "II", "REMORA__DataStruct_8H.html#a9681a821258db223d808869534720eada66cc12e3c6d68de3fef6de89cf033f67", null ],
+      [ "III", "REMORA__DataStruct_8H.html#a9681a821258db223d808869534720eada51ac4581fa82be87a28f7c080e026ae6", null ],
+      [ "C1", "REMORA__DataStruct_8H.html#a9681a821258db223d808869534720eada1a2ddc2db4693cfd16d534cde5572cc1", null ],
+      [ "C3", "REMORA__DataStruct_8H.html#a9681a821258db223d808869534720eada3abe124ecc82bf2c2e22e6058f38c50c", null ],
+      [ "C5", "REMORA__DataStruct_8H.html#a9681a821258db223d808869534720eadafea813d4ddba3c46cf8b8e664b92cdaa", null ],
+      [ "C7", "REMORA__DataStruct_8H.html#a9681a821258db223d808869534720eada517d42f048d2dd422533522c796aaf37", null ]
+    ] ],
     [ "MaskConsistency", "REMORA__DataStruct_8H.html#a1db09fa0334c56b374c1072774c16701", [
       [ "abort", "REMORA__DataStruct_8H.html#a1db09fa0334c56b374c1072774c16701a5bb94a1c12413a2e5d14deabab29f2aa", null ],
       [ "warn", "REMORA__DataStruct_8H.html#a1db09fa0334c56b374c1072774c16701a1ea4c3ab05ee0c6d4de30740443769cb", null ]

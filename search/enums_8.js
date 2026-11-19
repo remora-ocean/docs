@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['loadbalance_0',['LoadBalance',['../classREMORA.html#a27961c017051f59014248dac19d3b53e',1,'REMORA']]]
+  ['jerlovtype_0',['JerlovType',['../REMORA__DataStruct_8H.html#a9681a821258db223d808869534720ead',1,'REMORA_DataStruct.H']]]
 ];
