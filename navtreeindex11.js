@@ -1,5 +1,6 @@
 var NAVTREEINDEX11 =
 {
+"structREMORATimeUnits.html#aee5c56e22e0c3d9645e86a3869b3c96a":[2,0,32,2],
 "structREMORA_1_1CF2DCache.html":[2,0,22,1],
 "structREMORA_1_1CF2DCache.html#a6ad3fa2548770a47dd41435c63b371bd":[2,0,22,1,4],
 "structREMORA_1_1CF2DCache.html#a74f120279dc8fcf62bf4f9964a597c14":[2,0,22,1,2],
@@ -248,6 +249,5 @@ var NAVTREEINDEX11 =
 "structncutils_1_1NCDType.html#ac5bfba212db12de3dfde52dc3ae3eb0c":[1,0,27,0,1],
 "structncutils_1_1NCDType.html#ac5bfba212db12de3dfde52dc3ae3eb0c":[2,0,5,0,1],
 "structncutils_1_1NCDim.html":[1,0,27,1],
-"structncutils_1_1NCDim.html":[2,0,5,1],
-"structncutils_1_1NCDim.html#a1c5560c95be35dbcedaf1390972175f8":[1,0,27,1,2]
+"structncutils_1_1NCDim.html":[2,0,5,1]
 };

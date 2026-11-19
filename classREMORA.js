@@ -420,6 +420,7 @@ var classREMORA =
     [ "m_warned_surface_temp_min", "classREMORA.html#a2c9ed2b6a6fec3bed5f142d29a84e772", null ],
     [ "m_warned_surface_temp_nan", "classREMORA.html#a12d75538c45a0883db2b3e0e1a1fc260", null ],
     [ "max_step", "classREMORA.html#a69c542c1c57e6c6532a20eec60b9a0c3", null ],
+    [ "mixing_names_3d", "classREMORA.html#a71ff521811bc0b56fd02f17d5c212e23", null ],
     [ "n_scratch_2d", "classREMORA.html#a831de9b43b80ee9c2e3b85846744190e", null ],
     [ "nbio", "classREMORA.html#a7b79b15b3444d138afc8abb5112e33ce", null ],
     [ "nc_bdry_file", "classREMORA.html#a85d26ee3dd0f81a3e59e0b38672967cd", null ],
