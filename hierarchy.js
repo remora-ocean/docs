@@ -13,6 +13,7 @@ var hierarchy =
     [ "REMORABiology::BiologyAdvanceContext", "structREMORABiology_1_1BiologyAdvanceContext.html", null ],
     [ "REMORABiology::BiologyDeclaration", "structREMORABiology_1_1BiologyDeclaration.html", null ],
     [ "REMORABiology::BiologyInitContext", "structREMORABiology_1_1BiologyInitContext.html", null ],
+    [ "BoxLocalLoops", "classBoxLocalLoops.html", null ],
     [ "REMORA::CF2DCache", "structREMORA_1_1CF2DCache.html", null ],
     [ "REMORA::CFInterfaceFlux", "structREMORA_1_1CFInterfaceFlux.html", null ],
     [ "REMORABiology::Fennel::Components", "structREMORABiology_1_1Fennel_1_1Components.html", null ],

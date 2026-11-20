@@ -40,6 +40,7 @@ var annotated_dup =
       [ "MaskWeight", "structREMORAMaskedAvgDown_1_1MaskWeight.html", "structREMORAMaskedAvgDown_1_1MaskWeight" ],
       [ "FieldWeight", "structREMORAMaskedAvgDown_1_1FieldWeight.html", "structREMORAMaskedAvgDown_1_1FieldWeight" ]
     ] ],
+    [ "BoxLocalLoops", "classBoxLocalLoops.html", "classBoxLocalLoops" ],
     [ "HorizontalStencil", "structHorizontalStencil.html", "structHorizontalStencil" ],
     [ "LatLonRegrid", "classLatLonRegrid.html", "classLatLonRegrid" ],
     [ "LatLonRegridOptions", "structLatLonRegridOptions.html", "structLatLonRegridOptions" ],

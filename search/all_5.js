@@ -35,9 +35,10 @@ var searchData=
   ['evolvetracers_32',['evolveTracers',['../classREMORA.html#a6d126c0d4c7fe3f0c89cabbc3cb766cc',1,'REMORA']]],
   ['ewperiodic_33',['EWPeriodic',['../REMORA__InitAnalyticProb__ChannelTest_8H.html#a90afb84e87ef8a811e4afff30a9f2db3',1,'EWPeriodic:&#160;REMORA_InitAnalyticProb_ChannelTest.H'],['../REMORA__InitAnalyticProb__Upwelling_8H.html#a90afb84e87ef8a811e4afff30a9f2db3',1,'EWPeriodic:&#160;REMORA_InitAnalyticProb_Upwelling.H']]],
   ['exchange_5fcoarse_34',['exchange_coarse',['../classREMORA.html#aef098a85186c5df0489fdad3fde6420a',1,'REMORA']]],
-  ['exchanged_35',['exchanged',['../structREMORA_1_1CrseInterpEntry.html#a7d1141fb914588065d51f23a7e4a7046',1,'REMORA::CrseInterpEntry']]],
-  ['exit_5fdef_5fmode_36',['exit_def_mode',['../classncutils_1_1NCFile.html#a927f0e440a42d1219f5e618ca48c0d96',1,'ncutils::NCFile']]],
-  ['expand_5fplotvars_5fto_5funif_5frr_37',['expand_plotvars_to_unif_rr',['../classREMORA.html#ab973c21da05e8fc4ad9bf4ea9d33f2a4',1,'REMORA']]],
-  ['ext_5fdir_38',['ext_dir',['../namespaceREMORABCType.html#ac0d18d4bb218d5950db1000ef1abf346aab9d214a2442d0f956923d15f0392cf0',1,'REMORABCType']]],
-  ['extrapolate_5fmetric_5fto_5fphysical_5fboundaries_39',['extrapolate_metric_to_physical_boundaries',['../classREMORA.html#a2db07c02489b68d7a25c23a126ca8bb0',1,'REMORA']]]
+  ['exchange_5fthen_5fsync_35',['exchange_then_sync',['../REMORA__BoxLocalLoops_8H.html#a406ae632ccd82c564e8bfd84a9dcd5b9',1,'REMORA_BoxLocalLoops.H']]],
+  ['exchanged_36',['exchanged',['../structREMORA_1_1CrseInterpEntry.html#a7d1141fb914588065d51f23a7e4a7046',1,'REMORA::CrseInterpEntry']]],
+  ['exit_5fdef_5fmode_37',['exit_def_mode',['../classncutils_1_1NCFile.html#a927f0e440a42d1219f5e618ca48c0d96',1,'ncutils::NCFile']]],
+  ['expand_5fplotvars_5fto_5funif_5frr_38',['expand_plotvars_to_unif_rr',['../classREMORA.html#ab973c21da05e8fc4ad9bf4ea9d33f2a4',1,'REMORA']]],
+  ['ext_5fdir_39',['ext_dir',['../namespaceREMORABCType.html#ac0d18d4bb218d5950db1000ef1abf346aab9d214a2442d0f956923d15f0392cf0',1,'REMORABCType']]],
+  ['extrapolate_5fmetric_5fto_5fphysical_5fboundaries_40',['extrapolate_metric_to_physical_boundaries',['../classREMORA.html#a2db07c02489b68d7a25c23a126ca8bb0',1,'REMORA']]]
 ];
