@@ -6,6 +6,7 @@ var dir_5c09e96eccedf512ae411d636afd2712 =
     [ "REMORA_DepthStretchTransform.H", "REMORA__DepthStretchTransform_8H.html", "REMORA__DepthStretchTransform_8H" ],
     [ "REMORA_MaskedAverageDown.H", "REMORA__MaskedAverageDown_8H.html", "REMORA__MaskedAverageDown_8H" ],
     [ "REMORA_NonperiodicGeometry.H", "REMORA__NonperiodicGeometry_8H.html", "REMORA__NonperiodicGeometry_8H" ],
+    [ "REMORA_PeriodicImage.H", "REMORA__PeriodicImage_8H.html", "REMORA__PeriodicImage_8H" ],
     [ "REMORA_StaggeredBilinear.H", "REMORA__StaggeredBilinear_8H.html", "REMORA__StaggeredBilinear_8H" ],
     [ "REMORA_TimeUnits.H", "REMORA__TimeUnits_8H.html", "REMORA__TimeUnits_8H" ]
 ];

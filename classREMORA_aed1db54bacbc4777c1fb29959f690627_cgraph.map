@@ -1,6 +1,6 @@
 <map id="REMORA::set_grid_coords" name="REMORA::set_grid_coords">
 <area shape="rect" id="Node000001" title="Set a level&#39;s coordinates where they are not read from a file." alt="" coords="5,129,194,157"/>
-<area shape="rect" id="Node000002" href="$classREMORA.html#a3169888aac3fc73417ac6ef3f22708d4" title="Fill a refined level&#39;s coordinate array by bilinear interpolation of its parent&#39;s." alt="" coords="242,52,438,96"/>
+<area shape="rect" id="Node000002" href="$classREMORA.html#adbcf9b18cf53f0d01e9ddcc9e3c94acf" title="Fill a refined level&#39;s coordinate array by bilinear interpolation of its parent&#39;s; period &gt; 0 for a f..." alt="" coords="242,52,438,96"/>
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="149,126,247,99,243,103,151,131"/>
 <area shape="rect" id="Node000005" href="$classREMORA.html#a15fdd7629930174697da01694b9f1c6d" title="Level&#45;0 coordinates by summing the cell widths 1/pm and 1/pn." alt="" coords="246,121,434,166"/>
 <area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="194,141,233,142,227,144,195,146"/>

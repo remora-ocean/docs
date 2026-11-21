@@ -1,5 +1,0 @@
-<map id="REMORA::interp_grid_coords_from_coarse" name="REMORA::interp_grid_coords_from_coarse">
-<area shape="rect" id="Node000001" title="Fill a refined level&#39;s coordinate array (lon, lat, angle) from the coarser level, including the ghost..." alt="" coords="5,5,165,50"/>
-<area shape="rect" id="Node000002" href="$REMORA__NonperiodicGeometry_8H.html#a807c1181ccf7c025cc4410e41405c09b" title=" " alt="" coords="213,14,380,42"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="165,25,200,27,194,28,165,30"/>
-</map>

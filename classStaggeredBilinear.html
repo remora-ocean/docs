@@ -112,25 +112,67 @@ Collaboration diagram for StaggeredBilinear:</div>
 <div class="dyncontent">
 <div class="center"><img src="classStaggeredBilinear__coll__graph.png" border="0" usemap="#aStaggeredBilinear_coll__map" loading="lazy" alt="Collaboration graph"/></div>
 <map name="aStaggeredBilinear_coll__map" id="aStaggeredBilinear_coll__map">
-<area shape="rect" title="Bilinear coarse&#45;to&#45;fine interpolation of a 2D field at any horizontal staggering (rho,..." alt="" coords="10,81,148,109"/>
+<area shape="rect" title="Bilinear coarse&#45;to&#45;fine interpolation of a 2D field at any horizontal staggering (rho,..." alt="" coords="72,106,209,134"/>
 <area shape="rect" title=" " alt="" coords="5,5,153,33"/>
-<area shape="poly" title=" " alt="" coords="81,47,82,81,76,80,77,51"/>
+<area shape="poly" title=" " alt="" coords="96,44,135,105,129,106,93,48"/>
+<area shape="rect" title=" " alt="" coords="176,5,227,33"/>
+<area shape="poly" title=" " alt="" coords="188,45,150,107,147,104,183,47"/>
 </map>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
+<tr class="memitem:abc7743464b1364f6faf7bbddab02fcd6" id="r_abc7743464b1364f6faf7bbddab02fcd6"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abc7743464b1364f6faf7bbddab02fcd6">StaggeredBilinear</a> (amrex::Real period=amrex::Real(0.0))</td></tr>
 <tr class="memitem:ab3a5d9155e8551fd6728752197c7d48f" id="r_ab3a5d9155e8551fd6728752197c7d48f"><td class="memItemLeft" align="right" valign="top">amrex::Box&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab3a5d9155e8551fd6728752197c7d48f">CoarseBox</a> (const amrex::Box &amp;fine, int ratio) override</td></tr>
 <tr class="memitem:a6c001fd0656d7386d98b0f639c1bccb3" id="r_a6c001fd0656d7386d98b0f639c1bccb3"><td class="memItemLeft" align="right" valign="top">amrex::Box&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6c001fd0656d7386d98b0f639c1bccb3">CoarseBox</a> (const amrex::Box &amp;fine, const amrex::IntVect &amp;ratio) override</td></tr>
 <tr class="memitem:ae226e6cb152aef8350519dbcc8ab698b" id="r_ae226e6cb152aef8350519dbcc8ab698b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae226e6cb152aef8350519dbcc8ab698b">interp</a> (const amrex::FArrayBox &amp;crse, int crse_comp, amrex::FArrayBox &amp;fine, int fine_comp, int ncomp, const amrex::Box &amp;fine_region, const amrex::IntVect &amp;ratio, const amrex::Geometry &amp;crse_geom, const amrex::Geometry &amp;, amrex::Vector&lt; amrex::BCRec &gt; const &amp;bcr, int, int, amrex::RunOn runon) override</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-pri-attribs" class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:a044cc2ed21b0992f0c86621527c84bf5" id="r_a044cc2ed21b0992f0c86621527c84bf5"><td class="memItemLeft" align="right" valign="top">amrex::Real&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a044cc2ed21b0992f0c86621527c84bf5">m_period</a></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Bilinear coarse-to-fine interpolation of a 2D field at any horizontal staggering (rho, u, v or psi points), for grid coordinates. </p>
 <p>The arithmetic reads the coarse field only where a grid file sets it: the domain, plus the one-cell ring outside a physical edge along a cell-centred direction. Points beyond extrapolate linearly from the two nearest values, so a coordinate linear in the index is reproduced exactly. On a NetCDF level 0 the coordinates' ghost cells beyond that ring are never set, which is why AMReX's cell and node bilinear interpolaters, which read whatever the coarse ghost cells hold, don't fit; its face interpolater is also piecewise constant across the face.</p>
-<p>Used through InterpFromCoarseLevel with a non-periodic coarse Geometry (coordinates do not wrap; see nonperiodic_geometry) and one BCRec per component saying where the ring is: ext_dir at a physical edge, int_dir across a periodic one (see staggered_bilinear_bcrec). Across a periodic edge it reads no coarse ghost cell at all, since those hold the wrapped values from the other side. InterpFromCoarseLevel copies the parent's ghost cells into the coarse patch, so the parent needs ceil(fine ghosts / ratio) + 1 of them. </p>
+<p>Used through InterpFromCoarseLevel with a non-periodic coarse Geometry (coordinates do not wrap; see nonperiodic_geometry) and one BCRec per component saying where the ring is: ext_dir at a physical edge, int_dir across a periodic one (see staggered_bilinear_bcrec). Across a periodic edge it reads no coarse ghost cell at all, since those hold the wrapped values from the other side. InterpFromCoarseLevel copies the parent's ghost cells into the coarse patch, so the parent needs ceil(fine ghosts / ratio) + 1 of them.</p>
+<p>Constructed with a period (360 for a longitude in degrees, 2 pi for an angle in radians), it interpolates a field that wraps (a longitude across the date line) across the cut rather than through the jump, and keeps each fine value on its nearest coarse point's branch (see staggered_bilinear_value). </p>
 
-<p class="definition">Definition at line <a class="el" href="REMORA__StaggeredBilinear_8H_source.html#l00028">28</a> of file <a class="el" href="REMORA__StaggeredBilinear_8H_source.html">REMORA_StaggeredBilinear.H</a>.</p>
-</div><a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
+<p class="definition">Definition at line <a class="el" href="REMORA__StaggeredBilinear_8H_source.html#l00072">72</a> of file <a class="el" href="REMORA__StaggeredBilinear_8H_source.html">REMORA_StaggeredBilinear.H</a>.</p>
+</div><a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="abc7743464b1364f6faf7bbddab02fcd6" name="abc7743464b1364f6faf7bbddab02fcd6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abc7743464b1364f6faf7bbddab02fcd6">&#9670;&#160;</a></span>StaggeredBilinear()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">StaggeredBilinear::StaggeredBilinear </td>
+          <td>(</td>
+          <td class="paramtype">amrex::Real</td>          <td class="paramname"><span class="paramname"><em>period</em></span><span class="paramdefsep"> = </span><span class="paramdefval">amrex::Real(0.0)</span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel explicit">explicit</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">period</td><td>period of the field, or 0 for a field that does not wrap </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definition at line <a class="el" href="REMORA__StaggeredBilinear_8H_source.html#l00079">79</a> of file <a class="el" href="REMORA__StaggeredBilinear_8H_source.html">REMORA_StaggeredBilinear.H</a>.</p>
+
+</div>
+</div>
+<a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
 <a id="a6c001fd0656d7386d98b0f639c1bccb3" name="a6c001fd0656d7386d98b0f639c1bccb3"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a6c001fd0656d7386d98b0f639c1bccb3">&#9670;&#160;</a></span>CoarseBox() <span class="overload">[1/2]</span></h2>
 
@@ -166,7 +208,7 @@ Public Member Functions</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="REMORA__StaggeredBilinear_8H_source.html#l00050">50</a> of file <a class="el" href="REMORA__StaggeredBilinear_8H_source.html">REMORA_StaggeredBilinear.H</a>.</p>
+<p class="definition">Definition at line <a class="el" href="REMORA__StaggeredBilinear_8H_source.html#l00099">99</a> of file <a class="el" href="REMORA__StaggeredBilinear_8H_source.html">REMORA_StaggeredBilinear.H</a>.</p>
 
 </div>
 </div>
@@ -205,9 +247,9 @@ Public Member Functions</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="REMORA__StaggeredBilinear_8H_source.html#l00038">38</a> of file <a class="el" href="REMORA__StaggeredBilinear_8H_source.html">REMORA_StaggeredBilinear.H</a>.</p>
+<p class="definition">Definition at line <a class="el" href="REMORA__StaggeredBilinear_8H_source.html#l00087">87</a> of file <a class="el" href="REMORA__StaggeredBilinear_8H_source.html">REMORA_StaggeredBilinear.H</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="REMORA__StaggeredBilinear_8H_source.html#l00038">CoarseBox()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="REMORA__StaggeredBilinear_8H_source.html#l00087">CoarseBox()</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -327,17 +369,48 @@ Here is the caller graph for this function:</div>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="REMORA__StaggeredBilinear_8H_source.html#l00074">74</a> of file <a class="el" href="REMORA__StaggeredBilinear_8H_source.html">REMORA_StaggeredBilinear.H</a>.</p>
+<p class="definition">Definition at line <a class="el" href="REMORA__StaggeredBilinear_8H_source.html#l00123">123</a> of file <a class="el" href="REMORA__StaggeredBilinear_8H_source.html">REMORA_StaggeredBilinear.H</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="classStaggeredBilinear_ae226e6cb152aef8350519dbcc8ab698b_cgraph.png" border="0" usemap="#aclassStaggeredBilinear_ae226e6cb152aef8350519dbcc8ab698b_cgraph" loading="lazy" alt=""/></div>
 <map name="aclassStaggeredBilinear_ae226e6cb152aef8350519dbcc8ab698b_cgraph" id="aclassStaggeredBilinear_ae226e6cb152aef8350519dbcc8ab698b_cgraph">
-<area shape="rect" title=" " alt="" coords="5,5,151,50"/>
-<area shape="rect" href="REMORA__InitAnalyticBathymetry__BoundaryLayer_8H.html#af7f3ba67c009067c556a82938120fbdd" title=" " alt="" coords="199,14,381,42"/>
-<area shape="poly" title=" " alt="" coords="151,25,186,27,180,28,151,30"/>
+<area shape="rect" title=" " alt="" coords="5,28,151,72"/>
+<area shape="rect" href="REMORA__InitAnalyticBathymetry__BoundaryLayer_8H.html#af7f3ba67c009067c556a82938120fbdd" title=" " alt="" coords="199,5,381,33"/>
+<area shape="poly" title=" " alt="" coords="151,37,186,34,181,35,152,42"/>
+<area shape="rect" href="REMORA__StaggeredBilinear_8H.html#aba8ddfdf8e24678393b2853b1e98b84d" title=" " alt="" coords="219,57,361,102"/>
+<area shape="poly" title=" " alt="" coords="151,57,206,67,201,68,151,63"/>
+<area shape="rect" href="REMORA__PeriodicImage_8H.html#a37caea98b6f0a40226d44b16936215f3" title=" " alt="" coords="429,65,606,93"/>
+<area shape="poly" title=" " alt="" coords="361,77,416,79,410,79,361,82"/>
 </map>
 </div>
+
+</div>
+</div>
+<a name="doc-variable-members" id="doc-variable-members"></a><h2 id="header-doc-variable-members" class="groupheader">Member Data Documentation</h2>
+<a id="a044cc2ed21b0992f0c86621527c84bf5" name="a044cc2ed21b0992f0c86621527c84bf5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a044cc2ed21b0992f0c86621527c84bf5">&#9670;&#160;</a></span>m_period</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">amrex::Real StaggeredBilinear::m_period</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="REMORA__StaggeredBilinear_8H_source.html#l00182">182</a> of file <a class="el" href="REMORA__StaggeredBilinear_8H_source.html">REMORA_StaggeredBilinear.H</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="REMORA__StaggeredBilinear_8H_source.html#l00123">interp()</a>, and <a class="el" href="REMORA__StaggeredBilinear_8H_source.html#l00079">StaggeredBilinear()</a>.</p>
 
 </div>
 </div>

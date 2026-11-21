@@ -1,9 +1,10 @@
 <map id="REMORA::interp_staggered_coords_from_coarse" name="REMORA::interp_staggered_coords_from_coarse">
-<area shape="rect" id="Node000001" title="Fill a refined level&#39;s coordinate array by bilinear interpolation of its parent&#39;s." alt="" coords="1921,108,2118,152"/>
-<area shape="rect" id="Node000002" href="$classREMORA.html#aed1db54bacbc4777c1fb29959f690627" title="Set a level&#39;s coordinates where they are not read from a file." alt="" coords="1685,116,1873,144"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="1903,130,1874,132,1874,127,1908,130"/>
+<area shape="rect" id="Node000001" title="Fill a refined level&#39;s coordinate array by bilinear interpolation of its parent&#39;s; period &gt; 0 for a f..." alt="" coords="1921,108,2118,152"/>
+<area shape="rect" id="Node000002" href="$classREMORA.html#aed1db54bacbc4777c1fb29959f690627" title="Set a level&#39;s coordinates where they are not read from a file." alt="" coords="1685,91,1873,118"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="1903,118,1874,117,1874,112,1908,118"/>
 <area shape="rect" id="Node000003" href="$classREMORA.html#a439f8f03125dcd44558f1d34e9c45d4b" title="Set pm and pn arrays and x/y coords on level lev." alt="" coords="1458,116,1637,144"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="1667,130,1637,132,1637,127,1672,130"/>
+<area shape="poly" id="edge15_Node000001_Node000003" title=" " alt="" coords="1903,130,1638,132,1637,127,1909,130"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="1672,116,1638,123,1637,117,1667,117"/>
 <area shape="rect" id="Node000004" href="$classREMORA.html#abaf362ee14357b8dc0091e3ac3e98cef" title="Initialize initial problem data from analytic functions." alt="" coords="1217,5,1384,33"/>
 <area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="1509,107,1463,81,1409,54,1360,36,1360,31,1411,49,1466,76,1515,108"/>
 <area shape="rect" id="Node000005" href="$classREMORA.html#a4010e1137df2630bdd56327fad98e4a1" title="Init (NOT restart or regrid)." alt="" coords="1001,56,1143,84"/>

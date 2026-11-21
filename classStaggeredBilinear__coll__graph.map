@@ -1,5 +1,7 @@
 <map id="StaggeredBilinear" name="StaggeredBilinear">
-<area shape="rect" id="Node000001" title="Bilinear coarse&#45;to&#45;fine interpolation of a 2D field at any horizontal staggering (rho,..." alt="" coords="10,81,148,109"/>
+<area shape="rect" id="Node000001" title="Bilinear coarse&#45;to&#45;fine interpolation of a 2D field at any horizontal staggering (rho,..." alt="" coords="72,106,209,134"/>
 <area shape="rect" id="Node000002" title=" " alt="" coords="5,5,153,33"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="81,47,82,81,76,80,77,51"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="96,44,135,105,129,106,93,48"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="176,5,227,33"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="188,45,150,107,147,104,183,47"/>
 </map>

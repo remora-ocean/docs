@@ -70,15 +70,15 @@ var NAVTREEINDEX =
 "REMORA__IndexDefines_8H.html#a9b3470d187fb5c8b5eb826568bba2617",
 "REMORA__InitAnalyticProb__ParticleAdvectionFlat_8H.html",
 "REMORA__PC_8H.html#a60e97f730a0473a2abcbde04d1920fd1",
-"classNCTimeSeries.html#a5377c65e30685bb7963b6b613d63ffa9",
-"classREMORA.html#a271d86c1e20a76bd279fb2ae3411b17d",
-"classREMORA.html#a8950b7b2d332ce69e08aa803ac213373",
-"classREMORA.html#aee1629980943e15f6c13bf10dd9a650b",
-"classncutils_1_1NCFile.html#ace4a49831a5dc61e09b8c1e9f0a75f85",
-"namespaceREMORABiology.html#a050d98a525459d20a80e0466547c15ed",
-"structREMORABiology_1_1ECBParameters.html#a03d783b01bc8005e0cd8993a0eff8a5c",
-"structREMORAMaskedAvgDown_1_1FieldWeight.html#a71533a3ecf58f1e1033a9f30f6621060",
-"structmod__param_1_1t__bounds.html#a897bfe614a83622525b1a0f5d4ef8bc0"
+"classNCTimeSeries.html#a4ed7adc73ef3fe627a375ddb7240d66d",
+"classREMORA.html#a2585dd62a973e4f7eb8cef3c8a057a85",
+"classREMORA.html#a88ffd23fe5df7ee95eb7ed00b69d2943",
+"classREMORA.html#aedae6fd90cb13271f63ea80e59a2aacb",
+"classncutils_1_1NCFile.html#ab7d9364399a0b72494254df36863478a",
+"namespaceREMORABCType.html#ac0d18d4bb218d5950db1000ef1abf346aea4ae070ce07bfe352f3c5ac8e82a00e",
+"structREMORABiology_1_1ECBParameters.html",
+"structREMORAMaskedAvgDown_1_1FieldWeight.html",
+"structmod__param_1_1t__bounds.html#a2016a41257cf3607deda6b57efab110d"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronization';

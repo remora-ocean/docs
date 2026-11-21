@@ -1,5 +1,9 @@
 var NAVTREEINDEX9 =
 {
+"namespaceREMORABCType.html#ac0d18d4bb218d5950db1000ef1abf346aea4ae070ce07bfe352f3c5ac8e82a00e":[1,0,31,0,6],
+"namespaceREMORABCType.html#ac0d18d4bb218d5950db1000ef1abf346af756bb6d63add06a5624fa131cc82407":[1,0,31,0,4],
+"namespaceREMORABiology.html":[1,0,32],
+"namespaceREMORABiology.html#a04ddfdcf402a7dc21a983f252858efc6":[1,0,32,18],
 "namespaceREMORABiology.html#a050d98a525459d20a80e0466547c15ed":[1,0,32,28],
 "namespaceREMORABiology.html#a0ac67da5e981761a083e5d66a25f7636":[1,0,32,26],
 "namespaceREMORABiology.html#a1d862a1f79c24a7bc6fc103c86529c37":[1,0,32,29],
@@ -245,9 +249,5 @@ var NAVTREEINDEX9 =
 "structREMORABiology_1_1BiologyInitContext.html#a8d227f3cfe9064ad1fa9aebe36574727":[2,0,6,2,2],
 "structREMORABiology_1_1BiologyInitContext.html#aec3f6ae5aa28010962c4e918c4b09272":[1,0,32,3,0],
 "structREMORABiology_1_1BiologyInitContext.html#aec3f6ae5aa28010962c4e918c4b09272":[2,0,6,2,0],
-"structREMORABiology_1_1ECBParameters.html":[1,0,32,8],
-"structREMORABiology_1_1ECBParameters.html":[2,0,6,7],
-"structREMORABiology_1_1ECBParameters.html#a03375fa24cef63df5d81abf982c1b750":[1,0,32,8,16],
-"structREMORABiology_1_1ECBParameters.html#a03375fa24cef63df5d81abf982c1b750":[2,0,6,7,16],
-"structREMORABiology_1_1ECBParameters.html#a03d783b01bc8005e0cd8993a0eff8a5c":[1,0,32,8,39]
+"structREMORABiology_1_1ECBParameters.html":[1,0,32,8]
 };
