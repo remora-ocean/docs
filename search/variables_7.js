@@ -10,12 +10,15 @@ var searchData=
   ['has_5fmissing_7',['has_missing',['../classLatLonRegrid.html#a86960b331c25b3287b6171ca84fb04cc',1,'LatLonRegrid']]],
   ['has_5freference_8',['has_reference',['../structREMORATimeUnits.html#ab664259a79ab836061829bfa229aa8f4',1,'REMORATimeUnits']]],
   ['has_5fz_9',['has_z',['../classNCTimeSeriesRiver.html#afbf28d73c655104adcc6766e5e09ea98',1,'NCTimeSeriesRiver']]],
-  ['hires_5fgrid_5flevel_10',['hires_grid_level',['../classREMORA.html#af6613911799ddebd00cff330cf5c5f76',1,'REMORA']]],
-  ['hires_5finit_5flevel_11',['hires_init_level',['../classREMORA.html#aa0f93b5eb692df3d7ba897ebe09507ae',1,'REMORA']]],
-  ['history_5fcount_12',['history_count',['../classREMORA.html#a296bed166ddc9b98d606f3959ca6bfda',1,'REMORA']]],
-  ['history_5ffiles_13',['history_files',['../classREMORA.html#aac25e5f372b383e7d9fb8c7f36c3568f',1,'REMORA']]],
-  ['horiz_5fmixing_5ftype_14',['horiz_mixing_type',['../structSolverChoice.html#a03928859b0d4b6d28c43a64fcb0efea7',1,'SolverChoice']]],
-  ['hour_15',['hour',['../structREMORATimeUnits.html#aee5c56e22e0c3d9645e86a3869b3c96a',1,'REMORATimeUnits']]],
-  ['hydro_16',['hydro',['../namespaceREMORAParticleNames.html#a6d2fee8d4c38df86b642bd747fcfb14a',1,'REMORAParticleNames']]],
-  ['hz_17',['hz',['../structmod__grid_1_1t__grid.html#ae3894d598411b0f3bd82b962bff9d12b',1,'mod_grid::t_grid::hz'],['../structREMORABiology_1_1BiologyAdvanceContext.html#ab1f6be9f9b64db3fc23f3fdbb9c03639',1,'REMORABiology::BiologyAdvanceContext::hz']]]
+  ['have_5finterp_10',['have_interp',['../classNCTimeSeriesBoundary.html#a90289dbbd46f477e9780d804d2c8e8bf',1,'NCTimeSeriesBoundary::have_interp'],['../classNCTimeSeriesRiver.html#aa6b849b60ba08eb7fe8f957bead18470',1,'NCTimeSeriesRiver::have_interp']]],
+  ['have_5finterp_5flev0_11',['have_interp_lev0',['../classNCTimeSeries.html#af74b4bfe4e1001455a18d2c67667a429',1,'NCTimeSeries']]],
+  ['have_5finterpolated_5flev_12',['have_interpolated_lev',['../classNCTimeSeries.html#a97b91619a4da2c412c11f211d2ae5501',1,'NCTimeSeries']]],
+  ['hires_5fgrid_5flevel_13',['hires_grid_level',['../classREMORA.html#af6613911799ddebd00cff330cf5c5f76',1,'REMORA']]],
+  ['hires_5finit_5flevel_14',['hires_init_level',['../classREMORA.html#aa0f93b5eb692df3d7ba897ebe09507ae',1,'REMORA']]],
+  ['history_5fcount_15',['history_count',['../classREMORA.html#a296bed166ddc9b98d606f3959ca6bfda',1,'REMORA']]],
+  ['history_5ffiles_16',['history_files',['../classREMORA.html#aac25e5f372b383e7d9fb8c7f36c3568f',1,'REMORA']]],
+  ['horiz_5fmixing_5ftype_17',['horiz_mixing_type',['../structSolverChoice.html#a03928859b0d4b6d28c43a64fcb0efea7',1,'SolverChoice']]],
+  ['hour_18',['hour',['../structREMORATimeUnits.html#aee5c56e22e0c3d9645e86a3869b3c96a',1,'REMORATimeUnits']]],
+  ['hydro_19',['hydro',['../namespaceREMORAParticleNames.html#a6d2fee8d4c38df86b642bd747fcfb14a',1,'REMORAParticleNames']]],
+  ['hz_20',['hz',['../structmod__grid_1_1t__grid.html#ae3894d598411b0f3bd82b962bff9d12b',1,'mod_grid::t_grid::hz'],['../structREMORABiology_1_1BiologyAdvanceContext.html#ab1f6be9f9b64db3fc23f3fdbb9c03639',1,'REMORABiology::BiologyAdvanceContext::hz']]]
 ];

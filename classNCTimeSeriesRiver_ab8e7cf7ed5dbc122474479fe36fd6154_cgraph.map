@@ -1,5 +1,5 @@
 <map id="NCTimeSeriesRiver::update_interpolated_to_time" name="NCTimeSeriesRiver::update_interpolated_to_time">
-<area shape="rect" id="Node000001" title="Calculate interpolated values at time, in seconds on the model clock." alt="" coords="5,71,161,133"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,71,161,133"/>
 <area shape="rect" id="Node000002" href="$classNCTimeSeriesRiver.html#abf586562cf93e68e604212666f66bf31" title=" " alt="" coords="209,80,364,124"/>
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="160,99,196,101,190,103,161,104"/>
 <area shape="rect" id="Node000003" href="$REMORA__NCFile_8H.html#a41ff4f048600ccc17103500c9cc273bf" title="Function to read NetCDF variables and fill the corresponding Array4&#39;s." alt="" coords="412,88,603,116"/>

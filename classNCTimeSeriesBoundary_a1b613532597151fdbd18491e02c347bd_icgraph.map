@@ -2,6 +2,6 @@
 <area shape="rect" id="Node000001" title="The strip one point thick just outside horizontal side ori of dom, at this field&#39;s index type." alt="" coords="229,44,404,89"/>
 <area shape="rect" id="Node000002" href="$classNCTimeSeriesBoundary.html#a400f64bcc3115eace7b06ecabb321f63" title="Read in time array from file and allocate data arrays." alt="" coords="5,5,181,50"/>
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="211,49,181,46,181,40,216,48"/>
-<area shape="rect" id="Node000003" href="$classNCTimeSeriesBoundary.html#a3c152f0a4cef6e25c049c844ec120ecb" title="Calculate interpolated values at time, in seconds on the model clock, reading in data as necessary." alt="" coords="5,74,181,136"/>
+<area shape="rect" id="Node000003" href="$classNCTimeSeriesBoundary.html#a3c152f0a4cef6e25c049c844ec120ecb" title="Calculate interpolated values at time, in seconds on the model clock, reading in data as necessary...." alt="" coords="5,74,181,136"/>
 <area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="211,85,182,92,180,87,216,83"/>
 </map>

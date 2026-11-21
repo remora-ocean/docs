@@ -1,5 +1,5 @@
 <map id="NCTimeSeriesBoundary::update_interpolated_to_time" name="NCTimeSeriesBoundary::update_interpolated_to_time">
-<area shape="rect" id="Node000001" title="Calculate interpolated values at time, in seconds on the model clock, reading in data as necessary." alt="" coords="5,157,181,218"/>
+<area shape="rect" id="Node000001" title="Calculate interpolated values at time, in seconds on the model clock, reading in data as necessary...." alt="" coords="5,157,181,218"/>
 <area shape="rect" id="Node000002" href="$classNCTimeSeriesBoundary.html#a8ceebc489a3e3a1edd334ee54b9b1535" title="spatially interpolate the level&#45;0 strip of side ori (read in) to this level&#39;s" alt="" coords="229,75,404,119"/>
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="170,154,248,124,243,127,172,159"/>
 <area shape="rect" id="Node000005" href="$classNCTimeSeriesBoundary.html#a6ebf3f5cebba426a40653796807157ef" title="Read in data from file at time index itime and fill into mf." alt="" coords="229,165,404,210"/>

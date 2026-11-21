@@ -18,12 +18,15 @@ var searchData=
   ['inputs_5fname_15',['inputs_name',['../REMORA__NCPlotFile_8H.html#aabaa127a3a319c1b86090d6c88568965',1,'inputs_name:&#160;main.cpp'],['../REMORA__writeJobInfo_8cpp.html#aabaa127a3a319c1b86090d6c88568965',1,'inputs_name:&#160;main.cpp'],['../main_8cpp.html#aabaa127a3a319c1b86090d6c88568965',1,'inputs_name:&#160;main.cpp']]],
   ['inside_16',['inside',['../structlatlon__regrid_1_1Stencil.html#a73fa95aea97c494c5ef643a2c6e2f5c1',1,'latlon_regrid::Stencil']]],
   ['int_17',['Int',['../structncutils_1_1NCDType.html#ac5bfba212db12de3dfde52dc3ae3eb0c',1,'ncutils::NCDType']]],
-  ['is2d_18',['is2d',['../classNCTimeSeries.html#a1fa969bceaf0c79f6b70ebaf9d93c113',1,'NCTimeSeries::is2d'],['../classNCTimeSeriesBoundary.html#ac04c4f6c08f4b1f5c6b218977275e1c5',1,'NCTimeSeriesBoundary::is2d']]],
-  ['is_5fcycle_19',['is_cycle',['../classNCTimeSeries.html#a4deece011c7472c2bd7a1d0cd5cb8e5e',1,'NCTimeSeries']]],
-  ['is_5fopen_20',['is_open',['../classncutils_1_1NCFile.html#aa98d902ef67803393e80929bb73cb379',1,'ncutils::NCFile']]],
-  ['is_5ftransport_21',['is_transport',['../classNCTimeSeriesRiver.html#a5f870c9a8ffea21a8ee4edcf6fcd2a58',1,'NCTimeSeriesRiver']]],
-  ['isalt_22',['isalt',['../namespacemod__ncparam.html#aa4aefea770f9f3bb2bc126bacc1e36ce',1,'mod_ncparam']]],
-  ['istep_23',['istep',['../classREMORA.html#a7c44493fe1a5743c92f272c91c3aa558',1,'REMORA']]],
-  ['istr_24',['istr',['../structmod__param_1_1t__bounds.html#a8af397c3734b212feb0b47fb47c09a0e',1,'mod_param::t_bounds']]],
-  ['itemp_25',['itemp',['../namespacemod__ncparam.html#ab415cb908b037ea50b3541047a242042',1,'mod_ncparam']]]
+  ['interp_5flev0_5ftime_18',['interp_lev0_time',['../classNCTimeSeries.html#a7054d695365a9322e84f78c21434cfe9',1,'NCTimeSeries']]],
+  ['interp_5ftime_19',['interp_time',['../classNCTimeSeriesBoundary.html#aea0dbeb5560fcc5cc8d432d2d99f6ef9',1,'NCTimeSeriesBoundary::interp_time'],['../classNCTimeSeriesRiver.html#ad76767a742eaf93e5a503c260de41ab5',1,'NCTimeSeriesRiver::interp_time']]],
+  ['interpolated_5ftime_5flev_20',['interpolated_time_lev',['../classNCTimeSeries.html#a136899176ac75c379a5ebd12e3d68d84',1,'NCTimeSeries']]],
+  ['is2d_21',['is2d',['../classNCTimeSeries.html#a1fa969bceaf0c79f6b70ebaf9d93c113',1,'NCTimeSeries::is2d'],['../classNCTimeSeriesBoundary.html#ac04c4f6c08f4b1f5c6b218977275e1c5',1,'NCTimeSeriesBoundary::is2d']]],
+  ['is_5fcycle_22',['is_cycle',['../classNCTimeSeries.html#a4deece011c7472c2bd7a1d0cd5cb8e5e',1,'NCTimeSeries']]],
+  ['is_5fopen_23',['is_open',['../classncutils_1_1NCFile.html#aa98d902ef67803393e80929bb73cb379',1,'ncutils::NCFile']]],
+  ['is_5ftransport_24',['is_transport',['../classNCTimeSeriesRiver.html#a5f870c9a8ffea21a8ee4edcf6fcd2a58',1,'NCTimeSeriesRiver']]],
+  ['isalt_25',['isalt',['../namespacemod__ncparam.html#aa4aefea770f9f3bb2bc126bacc1e36ce',1,'mod_ncparam']]],
+  ['istep_26',['istep',['../classREMORA.html#a7c44493fe1a5743c92f272c91c3aa558',1,'REMORA']]],
+  ['istr_27',['istr',['../structmod__param_1_1t__bounds.html#a8af397c3734b212feb0b47fb47c09a0e',1,'mod_param::t_bounds']]],
+  ['itemp_28',['itemp',['../namespacemod__ncparam.html#ab415cb908b037ea50b3541047a242042',1,'mod_ncparam']]]
 ];

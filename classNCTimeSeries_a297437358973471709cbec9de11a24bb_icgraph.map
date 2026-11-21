@@ -1,5 +1,7 @@
 <map id="NCTimeSeries::read_in_at_time" name="NCTimeSeries::read_in_at_time">
-<area shape="rect" id="Node000001" title="Read in data from file at time index itime and fill into mf." alt="" coords="220,5,370,50"/>
-<area shape="rect" id="Node000002" href="$classNCTimeSeries.html#adf5aedc7963f0a326084362439be00a8" title="Calculate interpolated values at time, in seconds on the model clock, and fill data for level lev." alt="" coords="5,5,172,50"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="202,28,172,30,172,25,207,27"/>
+<area shape="rect" id="Node000001" title="Read in data from file at time index itime and fill into mf." alt="" coords="460,5,610,50"/>
+<area shape="rect" id="Node000002" href="$classNCTimeSeries.html#af31ecafe5c95ce1b3a0d1da2f3606853" title="Interpolate the records around l_time, the time within the series, into mf_interp_lev0,..." alt="" coords="220,5,412,50"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="442,28,413,30,413,25,447,28"/>
+<area shape="rect" id="Node000003" href="$classNCTimeSeries.html#adf5aedc7963f0a326084362439be00a8" title="Calculate interpolated values at time, in seconds on the model clock, and fill data for level lev." alt="" coords="5,5,172,50"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="201,28,172,30,172,25,207,27"/>
 </map>

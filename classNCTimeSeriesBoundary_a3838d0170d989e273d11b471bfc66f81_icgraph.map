@@ -4,6 +4,6 @@
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="434,46,404,44,404,39,439,46"/>
 <area shape="rect" id="Node000003" href="$classNCTimeSeriesBoundary.html#a6ebf3f5cebba426a40653796807157ef" title="Read in data from file at time index itime and fill into mf." alt="" coords="229,75,404,119"/>
 <area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="439,78,405,86,404,81,434,79"/>
-<area shape="rect" id="Node000004" href="$classNCTimeSeriesBoundary.html#a3c152f0a4cef6e25c049c844ec120ecb" title="Calculate interpolated values at time, in seconds on the model clock, reading in data as necessary." alt="" coords="5,66,181,128"/>
+<area shape="rect" id="Node000004" href="$classNCTimeSeriesBoundary.html#a3c152f0a4cef6e25c049c844ec120ecb" title="Calculate interpolated values at time, in seconds on the model clock, reading in data as necessary...." alt="" coords="5,66,181,128"/>
 <area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="211,97,181,100,181,94,216,97"/>
 </map>
