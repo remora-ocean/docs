@@ -201,6 +201,10 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:adf5aedc7963f0a326084362439be00a8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculate interpolated values at time, in seconds on the model clock, and fill data for level lev.  <br /></td></tr>
 <tr class="memitem:ade407058a6b4aca90273b1ed867a8f73" id="r_ade407058a6b4aca90273b1ed867a8f73"><td class="memItemLeft" align="right" valign="top">const amrex::MultiFab *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ade407058a6b4aca90273b1ed867a8f73">get_interpolated_mf</a> (int lev) const</td></tr>
 <tr class="memdesc:ade407058a6b4aca90273b1ed867a8f73"><td class="mdescLeft">&#160;</td><td class="mdescRight">Access interpolated data saved for a specific level.  <br /></td></tr>
+<tr class="memitem:af31ecafe5c95ce1b3a0d1da2f3606853" id="r_af31ecafe5c95ce1b3a0d1da2f3606853"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af31ecafe5c95ce1b3a0d1da2f3606853">interpolate_lev0_to_time</a> (double <a class="el" href="REMORA__InitAnalyticSMFlux__ChannelTest_8H.html#a33447f96f00d708dd345d6eb79c95d41">time</a>, double l_time)</td></tr>
+<tr class="memdesc:af31ecafe5c95ce1b3a0d1da2f3606853"><td class="mdescLeft">&#160;</td><td class="mdescRight">Interpolate the records around l_time, the time within the series, into mf_interp_lev0, reading records as needed.  <br /></td></tr>
+<tr class="memitem:a4b095a6194ec36360a4f69a67565429c" id="r_a4b095a6194ec36360a4f69a67565429c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4b095a6194ec36360a4f69a67565429c">fill_level_from_lev0</a> (int lev, amrex::MultiFab *mf_to_fill_lev, const amrex::Vector&lt; amrex::Geometry &gt; &amp;geom, const amrex::Vector&lt; amrex::IntVect &gt; &amp;ref_ratio)</td></tr>
+<tr class="memdesc:a4b095a6194ec36360a4f69a67565429c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Fill mf_to_fill_lev on level lev from mf_interp_lev0.  <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-static-methods" class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
@@ -211,10 +215,6 @@ Static Public Member Functions</h2></td></tr>
 Private Member Functions</h2></td></tr>
 <tr class="memitem:a297437358973471709cbec9de11a24bb" id="r_a297437358973471709cbec9de11a24bb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a297437358973471709cbec9de11a24bb">read_in_at_time</a> (amrex::MultiFab *mf, int itime)</td></tr>
 <tr class="memdesc:a297437358973471709cbec9de11a24bb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Read in data from file at time index itime and fill into mf.  <br /></td></tr>
-<tr class="memitem:af31ecafe5c95ce1b3a0d1da2f3606853" id="r_af31ecafe5c95ce1b3a0d1da2f3606853"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af31ecafe5c95ce1b3a0d1da2f3606853">interpolate_lev0_to_time</a> (double <a class="el" href="REMORA__InitAnalyticSMFlux__ChannelTest_8H.html#a33447f96f00d708dd345d6eb79c95d41">time</a>, double l_time)</td></tr>
-<tr class="memdesc:af31ecafe5c95ce1b3a0d1da2f3606853"><td class="mdescLeft">&#160;</td><td class="mdescRight">Interpolate the records around l_time, the time within the series, into mf_interp_lev0, reading records as needed.  <br /></td></tr>
-<tr class="memitem:a4b095a6194ec36360a4f69a67565429c" id="r_a4b095a6194ec36360a4f69a67565429c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4b095a6194ec36360a4f69a67565429c">fill_level_from_lev0</a> (int lev, amrex::MultiFab *mf_to_fill_lev, const amrex::Vector&lt; amrex::Geometry &gt; &amp;geom, const amrex::Vector&lt; amrex::IntVect &gt; &amp;ref_ratio)</td></tr>
-<tr class="memdesc:a4b095a6194ec36360a4f69a67565429c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Fill mf_to_fill_lev on level lev from mf_interp_lev0.  <br /></td></tr>
 <tr class="memitem:a536e8040417827dea5cde760a98db5de" id="r_a536e8040417827dea5cde760a98db5de"><td class="memItemLeft" align="right" valign="top">amrex::Box&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a536e8040417827dea5cde760a98db5de">lev0_data_box</a> () const</td></tr>
 <tr class="memdesc:a536e8040417827dea5cde760a98db5de"><td class="mdescLeft">&#160;</td><td class="mdescRight">Everywhere the file holds data on level 0: the domain plus the ROMS ring outside a non-nodal edge.  <br /></td></tr>
 <tr class="memitem:a9c5564b742da3bc36719af38f8df4fa8" id="r_a9c5564b742da3bc36719af38f8df4fa8"><td class="memItemLeft" align="right" valign="top">amrex::IntVect&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9c5564b742da3bc36719af38f8df4fa8">cumulative_ref_ratio</a> (int lev, const amrex::Vector&lt; amrex::IntVect &gt; &amp;ref_ratio) const</td></tr>
@@ -461,9 +461,6 @@ Here is the caller graph for this function:</div>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">void NCTimeSeries::fill_level_from_lev0 </td>
@@ -486,11 +483,6 @@ Here is the caller graph for this function:</div>
           <td class="paramtype">const amrex::Vector&lt; amrex::IntVect &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>ref_ratio</em></span>&#160;)</td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 <p>Fill mf_to_fill_lev on level lev from mf_interp_lev0. </p>
@@ -651,9 +643,6 @@ Here is the call graph for this function:</div>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">void NCTimeSeries::interpolate_lev0_to_time </td>
@@ -666,11 +655,6 @@ Here is the call graph for this function:</div>
           <td class="paramtype">double</td>          <td class="paramname"><span class="paramname"><em>l_time</em></span>&#160;)</td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 <p>Interpolate the records around l_time, the time within the series, into mf_interp_lev0, reading records as needed. </p>
@@ -1160,7 +1144,7 @@ Here is the call graph for this function:</div>
 
 <p>If a cycle, what is the cycle length? </p>
 
-<p class="definition">Definition at line <a class="el" href="REMORA__NCTimeSeries_8H_source.html#l00139">139</a> of file <a class="el" href="REMORA__NCTimeSeries_8H_source.html">REMORA_NCTimeSeries.H</a>.</p>
+<p class="definition">Definition at line <a class="el" href="REMORA__NCTimeSeries_8H_source.html#l00141">141</a> of file <a class="el" href="REMORA__NCTimeSeries_8H_source.html">REMORA_NCTimeSeries.H</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="REMORA__NCTimeSeries_8cpp_source.html#l00186">Initialize()</a>, and <a class="el" href="REMORA__NCTimeSeries_8cpp_source.html#l00412">update_interpolated_to_time()</a>.</p>
 
@@ -1188,7 +1172,7 @@ Here is the call graph for this function:</div>
 
 <p>Domain. </p>
 
-<p class="definition">Definition at line <a class="el" href="REMORA__NCTimeSeries_8H_source.html#l00111">111</a> of file <a class="el" href="REMORA__NCTimeSeries_8H_source.html">REMORA_NCTimeSeries.H</a>.</p>
+<p class="definition">Definition at line <a class="el" href="REMORA__NCTimeSeries_8H_source.html#l00113">113</a> of file <a class="el" href="REMORA__NCTimeSeries_8H_source.html">REMORA_NCTimeSeries.H</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="REMORA__NCTimeSeries_8cpp_source.html#l00186">Initialize()</a>, <a class="el" href="REMORA__NCTimeSeries_8cpp_source.html#l00656">lev0_data_box()</a>, <a class="el" href="REMORA__NCTimeSeries_8cpp_source.html#l00124">NCTimeSeries()</a>, and <a class="el" href="REMORA__NCTimeSeries_8cpp_source.html#l00693">read_in_at_time()</a>.</p>
 
@@ -1216,7 +1200,7 @@ Here is the call graph for this function:</div>
 
 <p>Field name in netcdf file. </p>
 
-<p class="definition">Definition at line <a class="el" href="REMORA__NCTimeSeries_8H_source.html#l00107">107</a> of file <a class="el" href="REMORA__NCTimeSeries_8H_source.html">REMORA_NCTimeSeries.H</a>.</p>
+<p class="definition">Definition at line <a class="el" href="REMORA__NCTimeSeries_8H_source.html#l00109">109</a> of file <a class="el" href="REMORA__NCTimeSeries_8H_source.html">REMORA_NCTimeSeries.H</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="REMORA__NCTimeSeries_8cpp_source.html#l00676">get_interpolated_mf()</a>, <a class="el" href="REMORA__NCTimeSeries_8cpp_source.html#l00186">Initialize()</a>, <a class="el" href="REMORA__NCTimeSeries_8cpp_source.html#l00473">interpolate_lev0_to_time()</a>, <a class="el" href="REMORA__NCTimeSeries_8cpp_source.html#l00124">NCTimeSeries()</a>, and <a class="el" href="REMORA__NCTimeSeries_8cpp_source.html#l00693">read_in_at_time()</a>.</p>
 
@@ -1244,7 +1228,7 @@ Here is the call graph for this function:</div>
 
 <p>File index to access a particular time. </p>
 
-<p class="definition">Definition at line <a class="el" href="REMORA__NCTimeSeries_8H_source.html#l00127">127</a> of file <a class="el" href="REMORA__NCTimeSeries_8H_source.html">REMORA_NCTimeSeries.H</a>.</p>
+<p class="definition">Definition at line <a class="el" href="REMORA__NCTimeSeries_8H_source.html#l00129">129</a> of file <a class="el" href="REMORA__NCTimeSeries_8H_source.html">REMORA_NCTimeSeries.H</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="REMORA__NCTimeSeries_8cpp_source.html#l00186">Initialize()</a>, and <a class="el" href="REMORA__NCTimeSeries_8cpp_source.html#l00693">read_in_at_time()</a>.</p>
 
@@ -1272,7 +1256,7 @@ Here is the call graph for this function:</div>
 
 <p>Whether each file stores this field on a lat-lon grid, to be interpolated. </p>
 
-<p class="definition">Definition at line <a class="el" href="REMORA__NCTimeSeries_8H_source.html#l00096">96</a> of file <a class="el" href="REMORA__NCTimeSeries_8H_source.html">REMORA_NCTimeSeries.H</a>.</p>
+<p class="definition">Definition at line <a class="el" href="REMORA__NCTimeSeries_8H_source.html#l00098">98</a> of file <a class="el" href="REMORA__NCTimeSeries_8H_source.html">REMORA_NCTimeSeries.H</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="REMORA__NCTimeSeries_8cpp_source.html#l00186">Initialize()</a>, and <a class="el" href="REMORA__NCTimeSeries_8cpp_source.html#l00693">read_in_at_time()</a>.</p>
 
@@ -1300,7 +1284,7 @@ Here is the call graph for this function:</div>
 
 <p>Whether each file stores this field as one value per time record. </p>
 
-<p class="definition">Definition at line <a class="el" href="REMORA__NCTimeSeries_8H_source.html#l00094">94</a> of file <a class="el" href="REMORA__NCTimeSeries_8H_source.html">REMORA_NCTimeSeries.H</a>.</p>
+<p class="definition">Definition at line <a class="el" href="REMORA__NCTimeSeries_8H_source.html#l00096">96</a> of file <a class="el" href="REMORA__NCTimeSeries_8H_source.html">REMORA_NCTimeSeries.H</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="REMORA__NCTimeSeries_8cpp_source.html#l00186">Initialize()</a>, <a class="el" href="REMORA__NCTimeSeries_8cpp_source.html#l00693">read_in_at_time()</a>, and <a class="el" href="REMORA__NCTimeSeries_8cpp_source.html#l00179">spatially_uniform()</a>.</p>
 
@@ -1328,7 +1312,7 @@ Here is the call graph for this function:</div>
 
 <p>Offset to access a particular time within its file. </p>
 
-<p class="definition">Definition at line <a class="el" href="REMORA__NCTimeSeries_8H_source.html#l00129">129</a> of file <a class="el" href="REMORA__NCTimeSeries_8H_source.html">REMORA_NCTimeSeries.H</a>.</p>
+<p class="definition">Definition at line <a class="el" href="REMORA__NCTimeSeries_8H_source.html#l00131">131</a> of file <a class="el" href="REMORA__NCTimeSeries_8H_source.html">REMORA_NCTimeSeries.H</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="REMORA__NCTimeSeries_8cpp_source.html#l00186">Initialize()</a>, and <a class="el" href="REMORA__NCTimeSeries_8cpp_source.html#l00693">read_in_at_time()</a>.</p>
 
@@ -1356,7 +1340,7 @@ Here is the call graph for this function:</div>
 
 <p>File names to read from. </p>
 
-<p class="definition">Definition at line <a class="el" href="REMORA__NCTimeSeries_8H_source.html#l00092">92</a> of file <a class="el" href="REMORA__NCTimeSeries_8H_source.html">REMORA_NCTimeSeries.H</a>.</p>
+<p class="definition">Definition at line <a class="el" href="REMORA__NCTimeSeries_8H_source.html#l00094">94</a> of file <a class="el" href="REMORA__NCTimeSeries_8H_source.html">REMORA_NCTimeSeries.H</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="REMORA__NCTimeSeries_8cpp_source.html#l00186">Initialize()</a>, <a class="el" href="REMORA__NCTimeSeries_8cpp_source.html#l00124">NCTimeSeries()</a>, and <a class="el" href="REMORA__NCTimeSeries_8cpp_source.html#l00693">read_in_at_time()</a>.</p>
 
@@ -1384,7 +1368,7 @@ Here is the call graph for this function:</div>
 
 <p>Whether mf_interp_lev0 holds data interpolated to interp_lev0_time. </p>
 
-<p class="definition">Definition at line <a class="el" href="REMORA__NCTimeSeries_8H_source.html#l00148">148</a> of file <a class="el" href="REMORA__NCTimeSeries_8H_source.html">REMORA_NCTimeSeries.H</a>.</p>
+<p class="definition">Definition at line <a class="el" href="REMORA__NCTimeSeries_8H_source.html#l00150">150</a> of file <a class="el" href="REMORA__NCTimeSeries_8H_source.html">REMORA_NCTimeSeries.H</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="REMORA__NCTimeSeries_8cpp_source.html#l00551">fill_level_from_lev0()</a>, <a class="el" href="REMORA__NCTimeSeries_8cpp_source.html#l00473">interpolate_lev0_to_time()</a>, and <a class="el" href="REMORA__NCTimeSeries_8cpp_source.html#l00412">update_interpolated_to_time()</a>.</p>
 
@@ -1412,7 +1396,7 @@ Here is the call graph for this function:</div>
 
 <p>Whether mf_interpolated_lev[lev] holds data at interpolated_time_lev[lev]. </p>
 
-<p class="definition">Definition at line <a class="el" href="REMORA__NCTimeSeries_8H_source.html#l00154">154</a> of file <a class="el" href="REMORA__NCTimeSeries_8H_source.html">REMORA_NCTimeSeries.H</a>.</p>
+<p class="definition">Definition at line <a class="el" href="REMORA__NCTimeSeries_8H_source.html#l00156">156</a> of file <a class="el" href="REMORA__NCTimeSeries_8H_source.html">REMORA_NCTimeSeries.H</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="REMORA__NCTimeSeries_8cpp_source.html#l00412">update_interpolated_to_time()</a>.</p>
 
@@ -1440,7 +1424,7 @@ Here is the call graph for this function:</div>
 
 <p>Time index immediately before the last time interpolated to. </p>
 
-<p class="definition">Definition at line <a class="el" href="REMORA__NCTimeSeries_8H_source.html#l00131">131</a> of file <a class="el" href="REMORA__NCTimeSeries_8H_source.html">REMORA_NCTimeSeries.H</a>.</p>
+<p class="definition">Definition at line <a class="el" href="REMORA__NCTimeSeries_8H_source.html#l00133">133</a> of file <a class="el" href="REMORA__NCTimeSeries_8H_source.html">REMORA_NCTimeSeries.H</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="REMORA__NCTimeSeries_8cpp_source.html#l00186">Initialize()</a>, and <a class="el" href="REMORA__NCTimeSeries_8cpp_source.html#l00473">interpolate_lev0_to_time()</a>.</p>
 
@@ -1468,7 +1452,7 @@ Here is the call graph for this function:</div>
 
 <p>Time, within the series, mf_interp_lev0 was last interpolated to. </p>
 
-<p class="definition">Definition at line <a class="el" href="REMORA__NCTimeSeries_8H_source.html#l00150">150</a> of file <a class="el" href="REMORA__NCTimeSeries_8H_source.html">REMORA_NCTimeSeries.H</a>.</p>
+<p class="definition">Definition at line <a class="el" href="REMORA__NCTimeSeries_8H_source.html#l00152">152</a> of file <a class="el" href="REMORA__NCTimeSeries_8H_source.html">REMORA_NCTimeSeries.H</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="REMORA__NCTimeSeries_8cpp_source.html#l00473">interpolate_lev0_to_time()</a>, and <a class="el" href="REMORA__NCTimeSeries_8cpp_source.html#l00412">update_interpolated_to_time()</a>.</p>
 
@@ -1496,7 +1480,7 @@ Here is the call graph for this function:</div>
 
 <p>Time, within the series, mf_interpolated_lev[lev] was last filled for. </p>
 
-<p class="definition">Definition at line <a class="el" href="REMORA__NCTimeSeries_8H_source.html#l00156">156</a> of file <a class="el" href="REMORA__NCTimeSeries_8H_source.html">REMORA_NCTimeSeries.H</a>.</p>
+<p class="definition">Definition at line <a class="el" href="REMORA__NCTimeSeries_8H_source.html#l00158">158</a> of file <a class="el" href="REMORA__NCTimeSeries_8H_source.html">REMORA_NCTimeSeries.H</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="REMORA__NCTimeSeries_8cpp_source.html#l00412">update_interpolated_to_time()</a>.</p>
 
@@ -1524,7 +1508,7 @@ Here is the call graph for this function:</div>
 
 <p>Whether the field we're reading in is 2d. </p>
 
-<p class="definition">Definition at line <a class="el" href="REMORA__NCTimeSeries_8H_source.html#l00114">114</a> of file <a class="el" href="REMORA__NCTimeSeries_8H_source.html">REMORA_NCTimeSeries.H</a>.</p>
+<p class="definition">Definition at line <a class="el" href="REMORA__NCTimeSeries_8H_source.html#l00116">116</a> of file <a class="el" href="REMORA__NCTimeSeries_8H_source.html">REMORA_NCTimeSeries.H</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="REMORA__NCTimeSeries_8cpp_source.html#l00186">Initialize()</a>, <a class="el" href="REMORA__NCTimeSeries_8cpp_source.html#l00124">NCTimeSeries()</a>, and <a class="el" href="REMORA__NCTimeSeries_8cpp_source.html#l00693">read_in_at_time()</a>.</p>
 
@@ -1552,7 +1536,7 @@ Here is the call graph for this function:</div>
 
 <p>Whether the time series is a cycle. </p>
 
-<p class="definition">Definition at line <a class="el" href="REMORA__NCTimeSeries_8H_source.html#l00137">137</a> of file <a class="el" href="REMORA__NCTimeSeries_8H_source.html">REMORA_NCTimeSeries.H</a>.</p>
+<p class="definition">Definition at line <a class="el" href="REMORA__NCTimeSeries_8H_source.html#l00139">139</a> of file <a class="el" href="REMORA__NCTimeSeries_8H_source.html">REMORA_NCTimeSeries.H</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="REMORA__NCTimeSeries_8cpp_source.html#l00186">Initialize()</a>, and <a class="el" href="REMORA__NCTimeSeries_8cpp_source.html#l00412">update_interpolated_to_time()</a>.</p>
 
@@ -1579,7 +1563,7 @@ Here is the call graph for this function:</div>
 </div><div class="memdoc">
 <p>Level of the most recent update. One series serves every level, and under subcycling the levels ask for different times, so a saved buffer is only current for the level that last updated it. Callers update immediately before reading; this records enough to catch a caller that stops doing so. </p>
 
-<p class="definition">Definition at line <a class="el" href="REMORA__NCTimeSeries_8H_source.html#l00162">162</a> of file <a class="el" href="REMORA__NCTimeSeries_8H_source.html">REMORA_NCTimeSeries.H</a>.</p>
+<p class="definition">Definition at line <a class="el" href="REMORA__NCTimeSeries_8H_source.html#l00164">164</a> of file <a class="el" href="REMORA__NCTimeSeries_8H_source.html">REMORA_NCTimeSeries.H</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="REMORA__NCTimeSeries_8cpp_source.html#l00676">get_interpolated_mf()</a>, and <a class="el" href="REMORA__NCTimeSeries_8cpp_source.html#l00412">update_interpolated_to_time()</a>.</p>
 
@@ -1607,7 +1591,7 @@ Here is the call graph for this function:</div>
 
 <p>Multifab to store data at time_after. </p>
 
-<p class="definition">Definition at line <a class="el" href="REMORA__NCTimeSeries_8H_source.html#l00144">144</a> of file <a class="el" href="REMORA__NCTimeSeries_8H_source.html">REMORA_NCTimeSeries.H</a>.</p>
+<p class="definition">Definition at line <a class="el" href="REMORA__NCTimeSeries_8H_source.html#l00146">146</a> of file <a class="el" href="REMORA__NCTimeSeries_8H_source.html">REMORA_NCTimeSeries.H</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="REMORA__NCTimeSeries_8cpp_source.html#l00186">Initialize()</a>, and <a class="el" href="REMORA__NCTimeSeries_8cpp_source.html#l00473">interpolate_lev0_to_time()</a>.</p>
 
@@ -1635,7 +1619,7 @@ Here is the call graph for this function:</div>
 
 <p>Multifab to store data at time_before. </p>
 
-<p class="definition">Definition at line <a class="el" href="REMORA__NCTimeSeries_8H_source.html#l00142">142</a> of file <a class="el" href="REMORA__NCTimeSeries_8H_source.html">REMORA_NCTimeSeries.H</a>.</p>
+<p class="definition">Definition at line <a class="el" href="REMORA__NCTimeSeries_8H_source.html#l00144">144</a> of file <a class="el" href="REMORA__NCTimeSeries_8H_source.html">REMORA_NCTimeSeries.H</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="REMORA__NCTimeSeries_8cpp_source.html#l00186">Initialize()</a>, and <a class="el" href="REMORA__NCTimeSeries_8cpp_source.html#l00473">interpolate_lev0_to_time()</a>.</p>
 
@@ -1663,7 +1647,7 @@ Here is the call graph for this function:</div>
 
 <p>Multifab storing temporally interpolated data on level 0. </p>
 
-<p class="definition">Definition at line <a class="el" href="REMORA__NCTimeSeries_8H_source.html#l00146">146</a> of file <a class="el" href="REMORA__NCTimeSeries_8H_source.html">REMORA_NCTimeSeries.H</a>.</p>
+<p class="definition">Definition at line <a class="el" href="REMORA__NCTimeSeries_8H_source.html#l00148">148</a> of file <a class="el" href="REMORA__NCTimeSeries_8H_source.html">REMORA_NCTimeSeries.H</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="REMORA__NCTimeSeries_8cpp_source.html#l00551">fill_level_from_lev0()</a>, <a class="el" href="REMORA__NCTimeSeries_8cpp_source.html#l00186">Initialize()</a>, <a class="el" href="REMORA__NCTimeSeries_8cpp_source.html#l00473">interpolate_lev0_to_time()</a>, and <a class="el" href="REMORA__NCTimeSeries_8cpp_source.html#l00656">lev0_data_box()</a>.</p>
 
@@ -1691,7 +1675,7 @@ Here is the call graph for this function:</div>
 
 <p>Interpolated data on each requested AMR level if save_interpolated=true. </p>
 
-<p class="definition">Definition at line <a class="el" href="REMORA__NCTimeSeries_8H_source.html#l00152">152</a> of file <a class="el" href="REMORA__NCTimeSeries_8H_source.html">REMORA_NCTimeSeries.H</a>.</p>
+<p class="definition">Definition at line <a class="el" href="REMORA__NCTimeSeries_8H_source.html#l00154">154</a> of file <a class="el" href="REMORA__NCTimeSeries_8H_source.html">REMORA_NCTimeSeries.H</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="REMORA__NCTimeSeries_8cpp_source.html#l00676">get_interpolated_mf()</a>, and <a class="el" href="REMORA__NCTimeSeries_8cpp_source.html#l00412">update_interpolated_to_time()</a>.</p>
 
@@ -1718,7 +1702,7 @@ Here is the call graph for this function:</div>
 </div><div class="memdoc">
 <p>Pointer to <a class="el" href="classREMORA.html" title="Class that stores all relevant simulation state data with methods for time stepping.">REMORA</a> data that corresponds to the variable being interpolated. Filled by update_interpolated_to_time if save_interpolated==false. Otherwise, just used for getting box array, nodality, and distribution mapping </p>
 
-<p class="definition">Definition at line <a class="el" href="REMORA__NCTimeSeries_8H_source.html#l00166">166</a> of file <a class="el" href="REMORA__NCTimeSeries_8H_source.html">REMORA_NCTimeSeries.H</a>.</p>
+<p class="definition">Definition at line <a class="el" href="REMORA__NCTimeSeries_8H_source.html#l00168">168</a> of file <a class="el" href="REMORA__NCTimeSeries_8H_source.html">REMORA_NCTimeSeries.H</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="REMORA__NCTimeSeries_8cpp_source.html#l00186">Initialize()</a>, and <a class="el" href="REMORA__NCTimeSeries_8cpp_source.html#l00124">NCTimeSeries()</a>.</p>
 
@@ -1745,7 +1729,7 @@ Here is the call graph for this function:</div>
 </div><div class="memdoc">
 <p>Time points in netcdf file, in seconds on the model clock. Double, like every time on the model clock: see <a class="el" href="classREMORA.html#aa726a41ea5c80773654850a9444bf7fe" title="new time at each level, in seconds since start_time">REMORA::t_new</a>. </p>
 
-<p class="definition">Definition at line <a class="el" href="REMORA__NCTimeSeries_8H_source.html#l00125">125</a> of file <a class="el" href="REMORA__NCTimeSeries_8H_source.html">REMORA_NCTimeSeries.H</a>.</p>
+<p class="definition">Definition at line <a class="el" href="REMORA__NCTimeSeries_8H_source.html#l00127">127</a> of file <a class="el" href="REMORA__NCTimeSeries_8H_source.html">REMORA_NCTimeSeries.H</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="REMORA__NCTimeSeries_8cpp_source.html#l00186">Initialize()</a>, <a class="el" href="REMORA__NCTimeSeries_8cpp_source.html#l00473">interpolate_lev0_to_time()</a>, and <a class="el" href="REMORA__NCTimeSeries_8cpp_source.html#l00412">update_interpolated_to_time()</a>.</p>
 
@@ -1772,7 +1756,7 @@ Here is the call graph for this function:</div>
 </div><div class="memdoc">
 <p>The file read_in_at_time read last, kept open for the records after it: a parallel NetCDF-4 open costs about a second on a thousand ranks. Closed, collectively, when the series moves on to another file or is destroyed. </p>
 
-<p class="definition">Definition at line <a class="el" href="REMORA__NCTimeSeries_8H_source.html#l00175">175</a> of file <a class="el" href="REMORA__NCTimeSeries_8H_source.html">REMORA_NCTimeSeries.H</a>.</p>
+<p class="definition">Definition at line <a class="el" href="REMORA__NCTimeSeries_8H_source.html#l00177">177</a> of file <a class="el" href="REMORA__NCTimeSeries_8H_source.html">REMORA_NCTimeSeries.H</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="REMORA__NCTimeSeries_8cpp_source.html#l00693">read_in_at_time()</a>.</p>
 
@@ -1798,7 +1782,7 @@ Here is the call graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="REMORA__NCTimeSeries_8H_source.html#l00176">176</a> of file <a class="el" href="REMORA__NCTimeSeries_8H_source.html">REMORA_NCTimeSeries.H</a>.</p>
+<p class="definition">Definition at line <a class="el" href="REMORA__NCTimeSeries_8H_source.html#l00178">178</a> of file <a class="el" href="REMORA__NCTimeSeries_8H_source.html">REMORA_NCTimeSeries.H</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="REMORA__NCTimeSeries_8cpp_source.html#l00693">read_in_at_time()</a>.</p>
 
@@ -1826,7 +1810,7 @@ Here is the call graph for this function:</div>
 
 <p>The boxes read_in_at_time reads on this rank, for the layout below. </p>
 
-<p class="definition">Definition at line <a class="el" href="REMORA__NCTimeSeries_8H_source.html#l00169">169</a> of file <a class="el" href="REMORA__NCTimeSeries_8H_source.html">REMORA_NCTimeSeries.H</a>.</p>
+<p class="definition">Definition at line <a class="el" href="REMORA__NCTimeSeries_8H_source.html#l00171">171</a> of file <a class="el" href="REMORA__NCTimeSeries_8H_source.html">REMORA_NCTimeSeries.H</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="REMORA__NCTimeSeries_8cpp_source.html#l00693">read_in_at_time()</a>.</p>
 
@@ -1852,7 +1836,7 @@ Here is the call graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="REMORA__NCTimeSeries_8H_source.html#l00170">170</a> of file <a class="el" href="REMORA__NCTimeSeries_8H_source.html">REMORA_NCTimeSeries.H</a>.</p>
+<p class="definition">Definition at line <a class="el" href="REMORA__NCTimeSeries_8H_source.html#l00172">172</a> of file <a class="el" href="REMORA__NCTimeSeries_8H_source.html">REMORA_NCTimeSeries.H</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="REMORA__NCTimeSeries_8cpp_source.html#l00693">read_in_at_time()</a>.</p>
 
@@ -1878,7 +1862,7 @@ Here is the call graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="REMORA__NCTimeSeries_8H_source.html#l00171">171</a> of file <a class="el" href="REMORA__NCTimeSeries_8H_source.html">REMORA_NCTimeSeries.H</a>.</p>
+<p class="definition">Definition at line <a class="el" href="REMORA__NCTimeSeries_8H_source.html#l00173">173</a> of file <a class="el" href="REMORA__NCTimeSeries_8H_source.html">REMORA_NCTimeSeries.H</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="REMORA__NCTimeSeries_8cpp_source.html#l00693">read_in_at_time()</a>.</p>
 
@@ -1906,7 +1890,7 @@ Here is the call graph for this function:</div>
 
 <p>Interpolation from the files' lat-lon grid, when they are on one. </p>
 
-<p class="definition">Definition at line <a class="el" href="REMORA__NCTimeSeries_8H_source.html#l00105">105</a> of file <a class="el" href="REMORA__NCTimeSeries_8H_source.html">REMORA_NCTimeSeries.H</a>.</p>
+<p class="definition">Definition at line <a class="el" href="REMORA__NCTimeSeries_8H_source.html#l00107">107</a> of file <a class="el" href="REMORA__NCTimeSeries_8H_source.html">REMORA_NCTimeSeries.H</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="REMORA__NCTimeSeries_8cpp_source.html#l00186">Initialize()</a>, <a class="el" href="REMORA__NCTimeSeries_8cpp_source.html#l00693">read_in_at_time()</a>, and <a class="el" href="REMORA__NCTimeSeries_8H_source.html#l00036">regridded()</a>.</p>
 
@@ -1933,7 +1917,7 @@ Here is the call graph for this function:</div>
 </div><div class="memdoc">
 <p>How a field on another grid is interpolated (remora.frc_*), or null when this series is never interpolated from another grid </p>
 
-<p class="definition">Definition at line <a class="el" href="REMORA__NCTimeSeries_8H_source.html#l00100">100</a> of file <a class="el" href="REMORA__NCTimeSeries_8H_source.html">REMORA_NCTimeSeries.H</a>.</p>
+<p class="definition">Definition at line <a class="el" href="REMORA__NCTimeSeries_8H_source.html#l00102">102</a> of file <a class="el" href="REMORA__NCTimeSeries_8H_source.html">REMORA_NCTimeSeries.H</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="REMORA__NCTimeSeries_8cpp_source.html#l00186">Initialize()</a>, and <a class="el" href="REMORA__NCTimeSeries_8cpp_source.html#l00124">NCTimeSeries()</a>.</p>
 
@@ -1960,7 +1944,7 @@ Here is the call graph for this function:</div>
 </div><div class="memdoc">
 <p>Whether to save interpolated results in mf_interpolated. If false, data will be calculated to mf_var </p>
 
-<p class="definition">Definition at line <a class="el" href="REMORA__NCTimeSeries_8H_source.html#l00117">117</a> of file <a class="el" href="REMORA__NCTimeSeries_8H_source.html">REMORA_NCTimeSeries.H</a>.</p>
+<p class="definition">Definition at line <a class="el" href="REMORA__NCTimeSeries_8H_source.html#l00119">119</a> of file <a class="el" href="REMORA__NCTimeSeries_8H_source.html">REMORA_NCTimeSeries.H</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="REMORA__NCTimeSeries_8cpp_source.html#l00676">get_interpolated_mf()</a>, <a class="el" href="REMORA__NCTimeSeries_8cpp_source.html#l00124">NCTimeSeries()</a>, and <a class="el" href="REMORA__NCTimeSeries_8cpp_source.html#l00412">update_interpolated_to_time()</a>.</p>
 
@@ -1986,7 +1970,7 @@ Here is the call graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="REMORA__NCTimeSeries_8H_source.html#l00103">103</a> of file <a class="el" href="REMORA__NCTimeSeries_8H_source.html">REMORA_NCTimeSeries.H</a>.</p>
+<p class="definition">Definition at line <a class="el" href="REMORA__NCTimeSeries_8H_source.html#l00105">105</a> of file <a class="el" href="REMORA__NCTimeSeries_8H_source.html">REMORA_NCTimeSeries.H</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="REMORA__NCTimeSeries_8cpp_source.html#l00186">Initialize()</a>, and <a class="el" href="REMORA__NCTimeSeries_8cpp_source.html#l00124">NCTimeSeries()</a>.</p>
 
@@ -2014,7 +1998,7 @@ Here is the call graph for this function:</div>
 
 <p>Level 0 rho-point longitude and latitude, the interpolation targets. </p>
 
-<p class="definition">Definition at line <a class="el" href="REMORA__NCTimeSeries_8H_source.html#l00102">102</a> of file <a class="el" href="REMORA__NCTimeSeries_8H_source.html">REMORA_NCTimeSeries.H</a>.</p>
+<p class="definition">Definition at line <a class="el" href="REMORA__NCTimeSeries_8H_source.html#l00104">104</a> of file <a class="el" href="REMORA__NCTimeSeries_8H_source.html">REMORA_NCTimeSeries.H</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="REMORA__NCTimeSeries_8cpp_source.html#l00186">Initialize()</a>, and <a class="el" href="REMORA__NCTimeSeries_8cpp_source.html#l00124">NCTimeSeries()</a>.</p>
 
@@ -2042,7 +2026,7 @@ Here is the call graph for this function:</div>
 
 <p>Time in ocean_times immediately after the last time interpolated to. </p>
 
-<p class="definition">Definition at line <a class="el" href="REMORA__NCTimeSeries_8H_source.html#l00135">135</a> of file <a class="el" href="REMORA__NCTimeSeries_8H_source.html">REMORA_NCTimeSeries.H</a>.</p>
+<p class="definition">Definition at line <a class="el" href="REMORA__NCTimeSeries_8H_source.html#l00137">137</a> of file <a class="el" href="REMORA__NCTimeSeries_8H_source.html">REMORA_NCTimeSeries.H</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="REMORA__NCTimeSeries_8cpp_source.html#l00473">interpolate_lev0_to_time()</a>.</p>
 
@@ -2070,7 +2054,7 @@ Here is the call graph for this function:</div>
 
 <p>Time in ocean_times immediately before the last time interpolated to. </p>
 
-<p class="definition">Definition at line <a class="el" href="REMORA__NCTimeSeries_8H_source.html#l00133">133</a> of file <a class="el" href="REMORA__NCTimeSeries_8H_source.html">REMORA_NCTimeSeries.H</a>.</p>
+<p class="definition">Definition at line <a class="el" href="REMORA__NCTimeSeries_8H_source.html#l00135">135</a> of file <a class="el" href="REMORA__NCTimeSeries_8H_source.html">REMORA_NCTimeSeries.H</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="REMORA__NCTimeSeries_8cpp_source.html#l00473">interpolate_lev0_to_time()</a>.</p>
 
@@ -2098,7 +2082,7 @@ Here is the call graph for this function:</div>
 
 <p>Field name for time series in netcdf file. </p>
 
-<p class="definition">Definition at line <a class="el" href="REMORA__NCTimeSeries_8H_source.html#l00109">109</a> of file <a class="el" href="REMORA__NCTimeSeries_8H_source.html">REMORA_NCTimeSeries.H</a>.</p>
+<p class="definition">Definition at line <a class="el" href="REMORA__NCTimeSeries_8H_source.html#l00111">111</a> of file <a class="el" href="REMORA__NCTimeSeries_8H_source.html">REMORA_NCTimeSeries.H</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="REMORA__NCTimeSeries_8cpp_source.html#l00186">Initialize()</a>, and <a class="el" href="REMORA__NCTimeSeries_8cpp_source.html#l00124">NCTimeSeries()</a>.</p>
 
@@ -2125,7 +2109,7 @@ Here is the call graph for this function:</div>
 </div><div class="memdoc">
 <p>remora.time_ref: the reference date the model clock counts from. The file's times are placed on that clock from the reference date in their units attribute. Double, like every reference date. </p>
 
-<p class="definition">Definition at line <a class="el" href="REMORA__NCTimeSeries_8H_source.html#l00121">121</a> of file <a class="el" href="REMORA__NCTimeSeries_8H_source.html">REMORA_NCTimeSeries.H</a>.</p>
+<p class="definition">Definition at line <a class="el" href="REMORA__NCTimeSeries_8H_source.html#l00123">123</a> of file <a class="el" href="REMORA__NCTimeSeries_8H_source.html">REMORA_NCTimeSeries.H</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="REMORA__NCTimeSeries_8cpp_source.html#l00186">Initialize()</a>, and <a class="el" href="REMORA__NCTimeSeries_8cpp_source.html#l00124">NCTimeSeries()</a>.</p>
 
